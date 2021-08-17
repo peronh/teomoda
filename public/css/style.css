@@ -3046,18 +3046,18 @@ h6 {
 }
 
 .banner_about {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Nyar.JPG') ;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Nyar.jpeg') ;
 }
 .banner_blog {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Osz.JPG') ;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Osz.jpeg') ;
 }
 
 .banner_contact {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Tavasz.JPG') ;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Tavasz.jpeg') ;
 }
 
 .banner_testimonials {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Tel.JPG') ;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Tel.jpeg') ;
 }
 
 .banner_inner {
@@ -3086,4 +3086,10 @@ h6 {
 
 .bg-teomoda {
     background-color: #F7F7F7!important;
+}
+
+@media (max-width: 576px) {
+    #home-logo {
+        width: 200px!important;
+    }
 }
