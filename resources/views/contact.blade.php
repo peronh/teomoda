@@ -3,53 +3,80 @@
 @section('title', 'Contatct us')
 
 @section('content')
-    <form>
-        <div class="card" style="width: 28rem;">
-            <div class="form-row">
-                <img class="card-img-top" src="/assets/TeoModa_t.png" alt="Card image cap">
-                <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="inputAddress">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-                <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+        <div class="banner_inner banner_contact d-flex align-items-center">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Contact us</h2>
+                    <div class="page_link">
+                        <a href="/">Home</a>
+                        <a href="/contact">CONTACT</a>
+                    </div>
+
                 </div>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
         </div>
-    </form>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================Contact Area =================-->
+    <section class="contact_area p_120">
+        <div class="container">
+            <div id="mapBox" class="mapBox"
+                 data-lat="40.701083"
+                 data-lon="-74.1522848"
+                 data-zoom="13"
+                 data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+                 data-mlat="40.701083"
+                 data-mlon="-74.1522848">
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <i class="lnr lnr-home"></i>
+                            <h6>California, United States</h6>
+                            <p>Santa monica bullevard</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-phone-handset"></i>
+                            <h6><a href="#">00 (440) 9865 562</a></h6>
+                            <p>Mon to Fri 9am to 6 pm</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-envelope"></i>
+                            <h6><a href="#">support@colorlib.com</a></h6>
+                            <p>Send us your query anytime!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Contact Area =================-->
 @endsection
