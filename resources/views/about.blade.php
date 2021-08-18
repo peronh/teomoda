@@ -8,15 +8,12 @@
         <div class="banner_inner banner_about d-flex align-items-center">
             <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
             <div class="container">
-                <div class="banner_content text-center">
-                    <div class="baner_box">
-                        <h2>About Me</h2>
-                        <div class="page_link">
-                            <a href="/">Home</a>
-                            <a href="/about">About Me</a>
-                        </div>
+                <div class="banner_content text-center position-relative">
+                    <h2 class="banner_h2">About Me</h2>
+                    <div class="page_link">
+                        <a class="banner_a" href="/">Home</a>
+                        <a class="banner_a" href="/about">About Me</a>
                     </div>
-
                 </div>
             </div>
         </div>
