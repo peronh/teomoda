@@ -35,20 +35,20 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                        <li class="nav-item active"><a class="nav-link teomoda_color" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color" href="/about">About</a></li>
                         <li class="nav-item submenu ">
-                            <a href="/services" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
+                            <a href="/services" class="nav-link dropdown-toggle teomoda_color" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
                             <ul class="dropdown dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="lorem ipsum">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="nav-link" href="lorem ipsum">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.html">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.html">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/testimonials">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color" href="/blog">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color" href="/testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color" href="/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -81,12 +81,12 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 {{--                    <div class="collapse navbar-collapse ">--}}
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link p-0 text-light" href="/">Home</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light" href="/about">About</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light" href="/services">Services</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light" href="/blog">Blogs</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light" href="/testimonials">Testimonials</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light" href="/contact">Contact</a></li>
+                            <li class="nav-item active"><a class="nav-link p-0 text-light teomoda_color" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/about">About</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/blog">Blogs</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/testimonials">Testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/contact">Contact</a></li>
                         </ul>
 {{--                    </div>--}}
                 </aside>
