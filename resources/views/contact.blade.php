@@ -32,7 +32,7 @@
                 <div class="col-lg-6">
                     <img src="/assets/contact.jpg" class="w-100" alt="">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 pt-4">
                     <div class="contact_info">
                         <div class="info_item">
                             <i class="lnr lnr-home"></i>
