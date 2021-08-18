@@ -35,20 +35,20 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link teomoda_color" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color" href="/about">About</a></li>
+                        <li class="nav-item active"><a class="nav-link teomoda_color position-relative {{ Request::path() == '/' ? 'active' : '' }}" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'about' ? 'active' : '' }}" href="/about">About</a></li>
                         <li class="nav-item submenu ">
-                            <a href="/services" class="nav-link dropdown-toggle teomoda_color" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
+                            <a href="/services" class="nav-link dropdown-toggle teomoda_color position-relative {{ Request::path() == 'services' ? 'active' : '' }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
                             <ul class="dropdown dropdown-menu">
-                                <li class="nav-item"><a class="nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link teomoda_color" href="/blog">Blogs</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color" href="/testimonials">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color" href="/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'blog' ? 'active' : '' }}" href="/blog">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'testimonials' ? 'active' : '' }}" href="/testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'contact' ? 'active' : '' }}" href="/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

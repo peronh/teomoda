@@ -3150,8 +3150,15 @@ h6 {
 .teomoda_color {
     color: #9a2b5c!important;
 }
+
 .teomoda_color:hover {
     color: #E85794 !important;
+}
+.dropdown-nav-link:hover {
+    color: #ffffff!important;
+}
+.active {
+    color: #E85794!important;
 }
 @media (max-width: 576px) {
     #home-logo {
