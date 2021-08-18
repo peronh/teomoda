@@ -28,7 +28,7 @@
                 <h2>Thank you for your interest in TeoModa!</h2>
                 <p>I’m looking forward to working with you.</p>
             </div>
-            <div class="row">
+            <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
                     <img src="/assets/contact.jpg" class="w-100" alt="">
                 </div>
