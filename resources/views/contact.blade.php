@@ -50,19 +50,29 @@
                             <p>send me an e-mail</p>
                         </div>
                     </div>
-                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    @if(session('success'))
+                        <div class="alert alert-success alert-dismissible fade show">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                    <form class="row contact_form" {{ route('contactPost') }} method="POST"  id="contactForm">
+                        @csrf
                         <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
+                                <input name="name" type="text" class="form-control" id="name" aria-describedby="name" placeholder="Your name">
+                                <span class="text-danger">{{ $errors->first('name') }}</span>
                             </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                            <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
+                                <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                       placeholder="Enter your email">
+                                <span class="text-danger">{{ $errors->first('email') }}</span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
                             </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                            <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
+                                <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <span class="text-danger">{{ $errors->first('comment') }}</span>
                             </div>
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>

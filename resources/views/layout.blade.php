@@ -79,7 +79,6 @@
                         <h3>Newsletter</h3>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-{{--                    <div class="collapse navbar-collapse ">--}}
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link p-0 text-light teomoda_color" href="/">Home</a></li>
                             <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/about">About</a></li>
@@ -88,7 +87,6 @@
                             <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/testimonials">Testimonials</a></li>
                             <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/contact">Contact</a></li>
                         </ul>
-{{--                    </div>--}}
                 </aside>
             </div>
             <div class="col-lg-2">
