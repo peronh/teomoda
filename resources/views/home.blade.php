@@ -41,7 +41,7 @@
                 </ul>
             </div>
             <div class="projects_inner row">
-                <div class="col-lg-4 col-sm-6 brand web">
+                <div class="col-lg-6 brand web">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase">Lorem ipsum </p>
@@ -53,7 +53,7 @@
                         <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 brand work">
+                <div class="col-lg-6 brand work">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase">Lorem ipsum </p>
@@ -65,7 +65,7 @@
                         <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 work">
+                <div class="col-lg-6 work">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase">Lorem ipsum </p>
@@ -77,7 +77,7 @@
                         <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 brand web">
+                <div class="col-lg-6 brand web">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase">Lorem ipsum </p>
@@ -87,30 +87,6 @@
                             </div>
                         </div>
                         <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 brand work">
-                    <div class="projects_item p-3 bg-teomoda">
-                        <div class="project_box p-3 pb-4 text-center">
-                            <p class="text-uppercase">Lorem ipsum </p>
-                            <p>Aenean enim justo, lobortis euismod dui id, viverra rutrum neque. Quisque at pharetra felis. Sed egestas egestas massa dictum cursus.</p>
-                            <img class="img-fluid" src="img/projects/projects-5.jpg" alt="">
-                            <div class="projects_text">
-                            </div>
-                        </div>
-                        <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 brand work web">
-                    <div class="projects_item p-3 bg-teomoda">
-                        <div class="project_box p-3 pb-4 text-center">
-                            <p class="text-uppercase">Lorem ipsum </p>
-                            <p>Aenean enim justo, lobortis euismod dui id, viverra rutrum neque. Quisque at pharetra felis. Sed egestas egestas massa dictum cursus.</p>
-                            <img class="img-fluid" src="img/projects/projects-6.jpg" alt="">
-                            <div class="projects_text">
-                            </div>
-                        </div>
-                        <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative border">read more</a>
                     </div>
                 </div>
             </div>
