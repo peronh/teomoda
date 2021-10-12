@@ -41,19 +41,19 @@
                 </tr>
 
                 <tr>
-                    <td bgcolor="#ffffff" style="padding: 20px 20px 10px 20px; color: #555555; font-family: Arial, sans-serif; font-size: 20px; line-height: 30px;">
+                    <td bgcolor="#ffffff" style="padding: 10px; color: #555555; font-family: Arial, sans-serif; font-size: 16px; line-height: 30px;">
                         Inquiry from: {{ $name }}
                     </td>
                 </tr>
 
                 <tr>
-                    <td bgcolor="#ffffff" style="padding: 20px 20px 10px 20px; color: #555555; font-family: Arial, sans-serif; font-size: 20px; line-height: 30px;">
+                    <td bgcolor="#ffffff" style="padding: 10px; color: #555555; font-family: Arial, sans-serif; font-size: 16px; line-height: 30px;">
                         Email: {{ $email }}
                     </td>
                 </tr>
 
                 <tr>
-                    <td bgcolor="#ffffff" style="padding: 20px 20px 10px 20px; color: #555555; font-family: Arial, sans-serif; font-size: 20px; line-height: 30px;">
+                    <td bgcolor="#ffffff" style="padding: 10px; color: #555555; font-family: Arial, sans-serif; font-size: 16px; line-height: 30px;">
                         Message: {{ $comment }}
                     </td>
                 </tr>
