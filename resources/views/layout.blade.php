@@ -38,12 +38,12 @@
                         <li class="nav-item active"><a class="nav-link teomoda_color position-relative {{ Request::path() == '/' ? 'active' : '' }}" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'about' ? 'active' : '' }}" href="/about">About</a></li>
                         <li class="nav-item submenu ">
-                            <a href="/services" class="nav-link dropdown-toggle teomoda_color position-relative {{ Request::path() == 'services' ? 'active' : '' }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
+                            <a id="nav-link-services" href="/services" class="nav-link dropdown-toggle teomoda_color position-relative {{ Request::path() == 'services' ? 'active' : '' }}" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
                             <ul class="dropdown dropdown-menu">
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">lorem ipsum</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">PERSONAL COLOR CONSULTATION</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">PERSONAL STYLE CONSULTATION</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">WARDROBE AUDIT</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">PERSONAL SHOPPING</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'blog' ? 'active' : '' }}" href="/blog">Blogs</a></li>

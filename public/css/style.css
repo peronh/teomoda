@@ -126,7 +126,7 @@ button:focus {
         position: absolute;
         top: 120%;
         left: 0;
-        min-width: 200px;
+        min-width: 260px;
         text-align: left;
         opacity: 0;
         transition: all 300ms ease-in;
@@ -3058,6 +3058,10 @@ h6 {
 
 .banner_testimonials {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Tel.jpeg') ;
+}
+
+.banner_services {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Nyar.jpeg') ;
 }
 
 .banner_inner {

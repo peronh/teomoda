@@ -167,4 +167,9 @@
     }
     testimonials_slider();
 
+    if (window.innerWidth < 980)
+    {
+        $('#nav-link-services').attr('data-toggle', 'dropdown');
+    }
+
 })(jQuery)
