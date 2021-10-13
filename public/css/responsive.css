@@ -96,9 +96,9 @@
     .header_area .navbar .search{
         margin-left: 0px;
     }
-	.header_area .navbar-collapse{
+	/*.header_area .navbar-collapse{
 		max-height: 340px;
-	}
+	}*/
 	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
 		padding: 0px 15px;
 	}
@@ -346,9 +346,9 @@
 @media (max-width:480px){
 	/* Main Menu Area css
 	============================================================================================ */
-	.header_area .navbar-collapse{
+	/*.header_area .navbar-collapse{
 		max-height: 250px;
-	}
+	}*/
 	/* End Main Menu Area css
 	============================================================================================ */
 

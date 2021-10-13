@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/services', function () {
     return view('services');
 });
+Route::get('/personal-color-consultation', function () {
+    return view('personalColorConsultation');
+});
 Route::get('/about', function () {
     return view('about');
 });

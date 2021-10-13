@@ -7,7 +7,7 @@
     <link rel="icon" href="favicon.ico" type="image/png">
     <title>@yield('title', 'Teomoda homepage')</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-{{--    <link rel="stylesheet" href="vendors/linericon/style.css">--}}
+    <link rel="stylesheet" href="vendors/linericon/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
@@ -40,7 +40,7 @@
                         <li class="nav-item submenu ">
                             <a id="nav-link-services" href="/services" class="nav-link dropdown-toggle teomoda_color position-relative {{ Request::path() == 'services' ? 'active' : '' }}" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
                             <ul class="dropdown dropdown-menu">
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">PERSONAL COLOR CONSULTATION</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-color-consultation">PERSONAL COLOR CONSULTATION</a></li>
                                 <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">PERSONAL STYLE CONSULTATION</a></li>
                                 <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">WARDROBE AUDIT</a></li>
                                 <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">PERSONAL SHOPPING</a></li>
