@@ -41,9 +41,9 @@
                             <a id="nav-link-services" href="/services" class="nav-link dropdown-toggle teomoda_color position-relative {{ Request::path() == 'services' ? 'active' : '' }}" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
                             <ul class="dropdown dropdown-menu">
                                 <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-color-consultation">PERSONAL COLOR CONSULTATION</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="lorem ipsum">PERSONAL STYLE CONSULTATION</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">WARDROBE AUDIT</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="elements.html">PERSONAL SHOPPING</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-style-consultation">PERSONAL STYLE CONSULTATION</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/wardrobe-audit">WARDROBE AUDIT</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-shopping">PERSONAL SHOPPING</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'blog' ? 'active' : '' }}" href="/blog">Blogs</a></li>

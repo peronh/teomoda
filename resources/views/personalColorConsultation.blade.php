@@ -25,6 +25,7 @@
             <div class="container">
                 <div class="main_title main_title_service text-center">
                     <h2><span class="main_title_service_text_left">“</span>The best color in the whole world is the one that looks good on you<span class="main_title_service_text_right">”</span></h2>
+                    <small class="pull-right"><i>(Coco Chanel)</i></small>
                 </div>
             <div class="section-top-border">
                 <h3 class="mb-30 title_color">Have you ever seen people wearing colors that just made them glow?</h3>
