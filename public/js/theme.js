@@ -173,4 +173,6 @@
         $('#nav-link-services').attr('data-toggle', 'dropdown');
     }
 
+    $('.alert').delay(5000).fadeOut(600);
+
 })(jQuery)
