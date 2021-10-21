@@ -36,8 +36,8 @@
                     <div class="contact_info">
                         <div class="info_item">
                             <i class="lnr lnr-home"></i>
-                            <h6>California, United States</h6>
-                            <p>Santa monica bullevard</p>
+                            <h6>Texas, United States</h6>
+                            <p>City of Katy</p>
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-phone-handset"></i>
