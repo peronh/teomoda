@@ -3231,3 +3231,9 @@ h6 {
         font-size: 22px!important;
     }
 }
+.alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
