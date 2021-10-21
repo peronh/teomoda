@@ -23,6 +23,15 @@ Route::get('/services', function () {
 Route::get('/personal-color-consultation', function () {
     return view('personalColorConsultation');
 });
+Route::get('/personal-style-consultation', function () {
+    return view('personalStyleConsultation');
+});
+Route::get('/wardrobe-audit', function () {
+    return view('wardrobeAudit');
+});
+Route::get('/personal-shopping', function () {
+    return view('personalShopping');
+});
 Route::get('/about', function () {
     return view('about');
 });

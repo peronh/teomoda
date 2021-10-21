@@ -27,16 +27,16 @@
                 <h2>Our Recent Completed Projects</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
             </div>
-            <div class="projects_fillter">
-                <ul class="filter list">
-                    <li class="active" data-filter="*"><a href="#">All Categories</a></li>
-                    <li data-filter=".brand"><a href="#">Branding</a></li>
-                    <li data-filter=".work"><a href="#">Creative Work </a></li>
-                    <li data-filter=".web"><a href="#">Web Design</a></li>
-                </ul>
-            </div>
+{{--            <div class="projects_fillter">--}}
+{{--                <ul class="filter list">--}}
+{{--                    <li class="active" data-filter="*"><a href="#">All Categories</a></li>--}}
+{{--                    <li data-filter=".brand"><a href="#">Branding</a></li>--}}
+{{--                    <li data-filter=".work"><a href="#">Creative Work </a></li>--}}
+{{--                    <li data-filter=".web"><a href="#">Web Design</a></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
             <div class="projects_inner row">
-                <div class="col-lg-3 brand web">
+                <div class="col-xl-3 col-md-6 brand web">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase mh80">PERSONAL COLOR CONSULTATION</p>
@@ -45,10 +45,10 @@
                             <div class="projects_text">
                             </div>
                         </div>
-                        <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
+                        <a href="/personal-color-consultation" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
                     </div>
                 </div>
-                <div class="col-lg-3 brand work">
+                <div class="col-xl-3 col-md-6 brand work">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase mh80">PERSONAL STYLE CONSULTATION</p>
@@ -57,10 +57,10 @@
                             <div class="projects_text">
                             </div>
                         </div>
-                        <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
+                        <a href="/personal-style-consultation" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
                     </div>
                 </div>
-                <div class="col-lg-3 work">
+                <div class="col-xl-3 col-md-6 work">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase mh80">WARDROBE AUDIT</p>
@@ -69,10 +69,10 @@
                             <div class="projects_text">
                             </div>
                         </div>
-                        <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
+                        <a href="/wardrobe-audit" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
                     </div>
                 </div>
-                <div class="col-lg-3 brand web">
+                <div class="col-xl-3 col-md-6 brand web">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <p class="text-uppercase mh80">PERSONAL SHOPPING</p>
@@ -81,7 +81,7 @@
                             <div class="projects_text">
                             </div>
                         </div>
-                        <a href="portfolio-details.html" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
+                        <a href="/personal-shopping" class="btn btn-danger pull-right service-btn mr-5 position-relative">read more</a>
                     </div>
                 </div>
             </div>
