@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Personal color consultation')
+@section('title', 'Teomoda | Personal color consultation')
 
 @section('content')
     <section class="banner_area">
@@ -24,7 +24,7 @@
         <div class="whole-wrap">
             <div class="container">
                 <div class="main_title main_title_service text-center">
-                    <h2><span class="main_title_service_text_left">“</span>The best color in the whole world is the one that looks good on you<span class="main_title_service_text_right">”</span></h2>
+                    <h2 class="main_title_pre"><span class="main_title_service_text_left">“</span>The best color in the whole world is the one that looks good on you<span class="main_title_service_text_right">”</span></h2>
                     <small class="pull-right"><i>(Coco Chanel)</i></small>
                 </div>
             <div class="section-top-border">

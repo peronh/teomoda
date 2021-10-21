@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Personal color consultation')
+@section('title', 'Teomoda | Personal style consultation')
 
 @section('content')
     <section class="banner_area">
@@ -24,7 +24,7 @@
         <div class="whole-wrap">
             <div class="container">
                 <div class="main_title main_title_service text-center">
-                    <h2><span class="main_title_service_text_left">“</span>Style is a way to say who you are without having to speak<span class="main_title_service_text_right">”</span></h2>
+                    <h2 class="main_title_pre"><span class="main_title_service_text_left">“</span>Style is a way to say who you are without having to speak<span class="main_title_service_text_right">”</span></h2>
                     <small class="pull-right"><i>(Rachel Zoe)</i></small>
                 </div>
                 <div class="section-top-border">

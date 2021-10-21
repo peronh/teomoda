@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Testimonials')
+@section('title', 'Teomoda | Testimonials')
 
 @section('content')
 

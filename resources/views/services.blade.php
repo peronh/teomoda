@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Services')
+@section('title', 'Teomoda | Services')
 
 @section('content')
     <section class="banner_area">
@@ -24,17 +24,8 @@
     <section class="projects_area p_120">
         <div class="container">
             <div class="main_title">
-                <h2>Our Recent Completed Projects</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                <h2>Personalized services</h2>
             </div>
-{{--            <div class="projects_fillter">--}}
-{{--                <ul class="filter list">--}}
-{{--                    <li class="active" data-filter="*"><a href="#">All Categories</a></li>--}}
-{{--                    <li data-filter=".brand"><a href="#">Branding</a></li>--}}
-{{--                    <li data-filter=".work"><a href="#">Creative Work </a></li>--}}
-{{--                    <li data-filter=".web"><a href="#">Web Design</a></li>--}}
-{{--                </ul>--}}
-{{--            </div>--}}
             <div class="projects_inner row">
                 <div class="col-xl-3 col-md-6 brand web">
                     <div class="projects_item p-3 bg-teomoda">

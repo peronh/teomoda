@@ -3216,8 +3216,18 @@ h6 {
         padding-top: 40px!important;
     }
 }
+@media (max-width: 768px) {
+    .main_title_pre {
+        font-size: 24px!important;
+    }
+}
 @media (max-width: 576px) {
     #home-logo {
         width: 200px!important;
+    }
+}
+@media (max-width: 360px) {
+    .main_title_pre {
+        font-size: 22px!important;
     }
 }

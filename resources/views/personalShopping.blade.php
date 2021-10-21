@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Personal color consultation')
+@section('title', 'Teomoda | Personal color consultation')
 
 @section('content')
     <section class="banner_area">
@@ -24,7 +24,7 @@
         <div class="whole-wrap">
             <div class="container">
                 <div class="main_title main_title_service text-center">
-                    <h2><span class="main_title_service_text_left">“</span>“Be your own personal shopper”<span class="main_title_service_text_right">”</span></h2>
+                    <h2 class="main_title_pre"><span class="main_title_service_text_left">“</span>Be your own personal shopper<span class="main_title_service_text_right">”</span></h2>
                 </div>
                 <div class="section-top-border">
                     <h3 class="mb-30 title_color">Have you ever wished you knew how to make your shopping for clothing more time and cost-effective?</h3>

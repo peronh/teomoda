@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Blogs')
+@section('title', 'Teomoda | Blogs')
 
 @section('content')
 
@@ -24,8 +24,9 @@
         <div class="container">
             <div class="main_title">
                 <h2>Latest Posts from Blog</h2>
-                <p>Aliquam convallis turpis non ipsum maximus, vitae rhoncus nunc dapibus. Proin id massa eget eros finibus fringilla. Phasellus eu metus sed quam hendrerit placerat id id justo. </p>
+                <p>No blogs for available</p>
             </div>
+            {{--
             <div class="row latest_blog_inner">
                 <div class="col-lg-4">
                     <div class="l_blog_item">
@@ -69,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--}}
         </div>
     </section>
 @endsection
