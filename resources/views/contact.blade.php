@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Contatct us')
+@section('title', 'Teomoda | Contatct us')
 
 @section('content')
     <!--================Home Banner Area =================-->

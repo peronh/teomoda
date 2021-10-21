@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Personal color consultation')
+@section('title', 'Teomoda | Wardrobe audit')
 
 @section('content')
     <section class="banner_area">
@@ -24,7 +24,7 @@
         <div class="whole-wrap">
             <div class="container">
                 <div class="main_title main_title_service text-center">
-                    <h2><span class="main_title_service_text_left">“</span>Buy less, choose well and make it last!<span class="main_title_service_text_right">”</span></h2>
+                    <h2 class="main_title_pre"><span class="main_title_service_text_left">“</span>Buy less, choose well and make it last!<span class="main_title_service_text_right">”</span></h2>
                     <small class="pull-right"><i>(Vivienne Westwood)</i></small>
                 </div>
                 <div class="section-top-border">
