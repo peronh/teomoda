@@ -76,19 +76,19 @@
         $('#mc_embed_signup').find('form').ajaxChimp();
     }
     mailChimp();
----------------------------------*/
-	$('select').niceSelect();
 
+	$('select').niceSelect();
+---------------------------------*/
 	/*----------------------------------------------------*/
     /*  Simple LightBox js
     /*----------------------------------------------------*/
     $('.imageGallery1 .light').simpleLightbox();
-
+/*
 	$('.counter').counterUp({
 		delay: 10,
 		time: 1000
 	});
-
+*/
 	$(".skill_main").each(function() {
         $(this).waypoint(function() {
             var progressBar = $(".progress-bar");
@@ -106,6 +106,7 @@
 	/*----------------------------------------------------*/
     /*  Isotope Fillter js
     /*----------------------------------------------------*/
+/*
 	function projects_isotope(){
         if ( $('.projects_area').length ){
             // Activate isotope in container
@@ -139,7 +140,7 @@
     }
     projects_isotope();
 
-
+*/
 	/*----------------------------------------------------*/
     /*  Testimonials Slider
     /*----------------------------------------------------*/
