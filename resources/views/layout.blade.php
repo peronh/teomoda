@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="favicon.ico" type="image/png">
     <title>@yield('title', 'Teomoda | homepage')</title>
+    <meta content="@yield('meta_keywords','some default keywords')" name="keywords">
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="@yield('meta_description','Styling you to feel radiant, comfortable and confident, all within your budget.')">
+    <meta property="og:url" content="@yield('meta_url','http://admin.teomoda.com/assets/TeoModa_t.png')">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="vendors/linericon/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
