@@ -84,6 +84,7 @@
                         <h4>$100</h4>
                         <p><strong>Available: </strong> In-person or Online</p>
                         <p><strong>Length: </strong> This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 120 min. in-person consultation.</p>
+                        <a id="personal-style-consultation" href="/contact" class="btn btn-danger  position-relative">choose</a>
                     </div>
                 </div>
             </div>

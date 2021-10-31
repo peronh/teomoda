@@ -121,6 +121,7 @@
                 },
                 submitHandler: function(form) {
                     form.submit();
+                    sessionStorage.clear();
                 }
             });
         });

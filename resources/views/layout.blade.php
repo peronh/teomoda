@@ -50,9 +50,9 @@
                                 <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-shopping">PERSONAL SHOPPING</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'blog' ? 'active' : '' }}" href="/blog">Blogs</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'testimonials' ? 'active' : '' }}" href="/testimonials">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'contact' ? 'active' : '' }}" href="/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'blog' ? 'active' : '' }}" href="/blog">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'testimonials' ? 'active' : '' }}" href="/testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'contact' ? 'active' : '' }}" href="/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

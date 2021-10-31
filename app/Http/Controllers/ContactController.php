@@ -34,9 +34,9 @@ class ContactController extends Controller
         Mail::send('emails.email',
             $data,
             function ($message) {
-                $message->from('info@webron.hu');
-                $message->to('info@webron.hu', 'Your Name')
-                        ->subject('Your Website Contact Form');
+                $message->from('support@teomoda.com');
+                $message->to('dora@teomoda.com', 'Your Name')
+                        ->subject('Message from teomoda.com website');
             });
 
         try

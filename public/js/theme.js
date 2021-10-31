@@ -175,4 +175,44 @@
 
     $('.alert').delay(5000).fadeOut(600);
 
+    $("#personal-color-consultation").click(function ()  {
+        sessionStorage.param = "personal-color-consultation";
+        sessionStorage.setItem("price", "personal-color-consultation");
+    });
+    $("#personal-style-consultation").click(function ()  {
+        sessionStorage.param = "personal-style-consultation";
+        sessionStorage.setItem("price", "personal-style-consultation");
+    });
+    $("#wardrobe-audit").click(function ()  {
+        sessionStorage.param = "wardrobe-audit";
+        sessionStorage.setItem("price", "wardrobe-audit");
+    });
+    $("#personal-shopping").click(function ()  {
+        sessionStorage.param = "personal-shopping";
+        sessionStorage.setItem("price", "personal-shopping");
+    });
+
+    $(".contact-btn").click(function ()  {
+        sessionStorage.clear();
+    });
+
+    var param = sessionStorage.getItem("price");
+
+    if (param == "personal-color-consultation")
+    {
+        $("#contactForm").find("#subject").val("Personal color consultation");
+    }
+    if (param == "personal-style-consultation")
+    {
+        $("#contactForm").find("#subject").val("Personal style consultation");
+    }
+    if (param == "wardrobe-audit")
+    {
+        $("#contactForm").find("#subject").val("Wardrobe audit");
+    }
+    if (param == "personal-shopping")
+    {
+        $("#contactForm").find("#subject").val("Personal shopping");
+    }
+
 })(jQuery)
