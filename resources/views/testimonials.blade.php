@@ -20,7 +20,7 @@
         </div>
     </section>
 
-    <section class="testimonials_area p_120">
+    <section class="testimonials_area p_80">
         <div class="container">
             <div class="main_title">
                 <h2>Testimonials</h2>

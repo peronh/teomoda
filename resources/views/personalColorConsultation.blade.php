@@ -20,7 +20,7 @@
         </div>
     </section>
     <!--================End Home Banner Area =================-->
-    <section class="contact_area p_120">
+    <section class="contact_area p_80">
         <div class="whole-wrap">
             <div class="container">
                 <div class="main_title main_title_service text-center">

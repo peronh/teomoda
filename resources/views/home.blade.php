@@ -24,7 +24,7 @@
         </div>
     </section>
 
-    <section class="projects_area p_120">
+    <section class="projects_area p_80">
         <div class="container pricing-container">
             <div class="main_title">
                 <h2>Personalized services</h2>
@@ -97,7 +97,7 @@
         </div>
     </section>
 
-    <section class="testimonials_area p_120">
+    <section class="testimonials_area p_80">
         <div class="container">
             <div class="main_title">
                 <h2>Testimonials</h2>
@@ -143,7 +143,7 @@
         </div>
     </section>
 
-    <section class="latest_blog_area p_120">
+    <section class="latest_blog_area p_80">
         <div class="container">
             <div class="main_title">
                 <h2>Latest Posts from Blog</h2>

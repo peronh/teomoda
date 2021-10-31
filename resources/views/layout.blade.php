@@ -62,7 +62,7 @@
 
 @yield('content')
 
-<footer class="footer_area p_120">
+<footer class="footer_area p_80">
     <div class="container">
         <div class="row footer_inner">
             <div class="col-lg-5 col-sm-6">

@@ -22,7 +22,7 @@
     <!--================End Home Banner Area =================-->
 
     <!--================Contact Area =================-->
-    <section class="contact_area p_120">
+    <section class="contact_area p_80">
         <div class="container">
             <div class="main_title">
                 <h2>Thank you for your interest in TeoModa!</h2>
