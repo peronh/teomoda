@@ -66,7 +66,7 @@
                         <i class="lnr lnr-database"></i>
                         <h4>$250</h4>
                         <p><strong>Length: </strong> This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 3hour in-person shopping and a 1hour (virtual) follow up.</p>
-                        <a id="personal-shopping" href="/contact" class="btn btn-danger  position-relative">choose</a>
+                        <a id="personal-shopping" href="/contact" class="btn btn-danger mt-3 position-relative">choose</a>
                     </div>
                 </div>
             </div>

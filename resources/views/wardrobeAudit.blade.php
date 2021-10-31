@@ -85,7 +85,7 @@
                         <h4>$150</h4>
                         <p><strong>Available: </strong> In-person or Online</p>
                         <p><strong>Length: </strong> This service includes a 15-30min. free online interview (via Zoom, Skype, Facetime) followed by 3hours of consultation.</p>
-                        <a id="wardrobe-audit" href="/contact" class="btn btn-danger  position-relative">choose</a>
+                        <a id="wardrobe-audit" href="/contact" class="btn btn-danger mt-3 position-relative">choose</a>
                     </div>
                 </div>
             </div>
