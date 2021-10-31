@@ -71,7 +71,7 @@
                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
                             </div>
                             <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
-                                <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
                                 <span class="text-danger">{{ $errors->first('comment') }}</span>
                             </div>
                             <div class="col-md-12 text-right">
@@ -84,4 +84,46 @@
         </div>
     </section>
     <!--================Contact Area =================-->
+@endsection
+
+@section('validation')
+    <script>
+
+        $(function() {
+            $("form").validate({
+                rules: {
+                    name: {
+                        required: true,
+                        minlength: 5
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    comment: {
+                        required: true,
+                        minlength: 5
+                    }
+                },
+                messages: {
+                    name: {
+                        required: "The name field is required!",
+                        minlength: "The name must be at least 5 characters long!"
+                    },
+                    comment: {
+                        required: "The message field is required!",
+                        minlength: "The message must be at least 5 characters long!"
+                    },
+                    email: {
+                        required: "The email field is required!",
+                        email: "Make sure the email format is correct!"
+                    }
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+        });
+
+    </script>
 @endsection
