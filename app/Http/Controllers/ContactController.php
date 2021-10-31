@@ -36,7 +36,8 @@ class ContactController extends Controller
             function ($message) {
                 $message->from('support@teomoda.com');
                 $message->to('dora@teomoda.com', 'Your Name')
-                        ->subject('Message from teomoda.com website');
+                        ->subject('Message from teomoda.com website')
+                        ->bcc('pronyecz@gmail.com');
             });
 
         try
