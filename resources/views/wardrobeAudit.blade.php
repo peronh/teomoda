@@ -45,7 +45,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="section-top-border">
                     <div class="row">
                         <div class="col-md-10 mt-sm-30 typo-sec">
@@ -78,6 +77,14 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="section-top-border">
+                    <div class="wel_item">
+                        <i class="lnr lnr-database"></i>
+                        <h4>$150</h4>
+                        <p><strong>Available: </strong> In-person or Online</p>
+                        <p><strong>Length: </strong> This service includes a 15-30min. free online interview (via Zoom, Skype, Facetime) followed by 3hours of consultation.</p>
                     </div>
                 </div>
             </div>

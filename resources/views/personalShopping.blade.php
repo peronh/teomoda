@@ -45,7 +45,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="section-top-border">
                     <div class="row">
                         <div class="col-md-10 mt-sm-30 typo-sec">
@@ -60,6 +59,13 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="section-top-border">
+                    <div class="wel_item">
+                        <i class="lnr lnr-database"></i>
+                        <h4>$250</h4>
+                        <p><strong>Length: </strong> This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 3hour in-person shopping and a 1hour (virtual) follow up.</p>
                     </div>
                 </div>
             </div>
