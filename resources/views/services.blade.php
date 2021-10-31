@@ -83,7 +83,7 @@
                             <p class="text-uppercase mh60">PERSONAL SHOPPING</p>
                             <p class="mh286"><strong>Length: </strong> <br/>This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 3hour in-person shopping and a 1hour (virtual) follow up.</p>
                             <p><strong>Fee: </strong></p>
-                            <h4 class="fee">$150</h4>
+                            <h4 class="fee">$250</h4>
                         </div>
                         <div class="d-flex justify-content-center">
                             <a href="/personal-shopping" class="btn btn-danger service-btn position-relative">read more</a>
