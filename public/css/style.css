@@ -3414,3 +3414,16 @@ html body .pricing-container .project_box button {
         transform: translate3d(0, 0, 0);
     }
 }
+.form-control {
+    color: #000000 !important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c7c7c7 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #c7c7c7!important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #c7c7c7!important;
+}
