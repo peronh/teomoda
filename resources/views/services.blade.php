@@ -21,7 +21,7 @@
     <!--================End Home Banner Area =================-->
 
     <!--================Projects Area =================-->
-    <section class="projects_area p_120">
+    <section class="projects_area p_80">
         <div class="container pricing-container">
             <div class="main_title">
                 <h2>Personalized services</h2>

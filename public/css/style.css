@@ -37,6 +37,10 @@ button:focus {
     padding-top: 120px;
     padding-bottom: 120px; }
 
+.p_80 {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+
 .pad_top {
     padding-top: 120px; }
 
@@ -1153,7 +1157,6 @@ button:focus {
 .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
-    color: "Roboto", sans-serif;
     font-weight: bold;
     margin-bottom: 0;
     color: #222222; }
