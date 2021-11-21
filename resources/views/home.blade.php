@@ -1,22 +1,23 @@
 @extends('layout')
 
 @section('content')
+
     <section class="home_banner_area">
         <div class="banner_inner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="home_left_img">
-                            <img src="assets/feher.jpg" alt="teomoda_profil" class="w-100" >
+                            <img src="assets/dora-kery.jpg" alt="teomoda_profil" class="w-100" >
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="banner_content">
                             <h5>About me</h5>
-                            <h2>Dora Kery</h2>
+                            <h3>Dora Kery</h3>
                             <p>My motto is:</p>
-                            <p>“Styling you to feel radiant, comfortable and confident, all within your budget.”</p>
-                            <a class="banner_btn" href="/about">ABOUT MORE</a>
+                            <h4 class="font-italic font-weight-normal">“Styling you to feel radiant, comfortable and confident, all within your budget.”</h4>
+                            <a class="banner_btn mt-3" href="/about">ABOUT MORE</a>
                         </div>
                     </div>
                 </div>
@@ -30,14 +31,14 @@
                 <h2>Personalized services</h2>
             </div>
             <div class="projects_inner row">
-                <div class="col-xl-3 col-md-6 brand web">
+                <div class="col-xl-4 col-md-6 brand web">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <div class="tb-border"></div>
                             <div class="lr-border"></div>
                             <p class="text-uppercase mh60">PERSONAL COLOR CONSULTATION</p>
                             <p class="mh60"><strong>Available: </strong> <br/>In-person or Online</p>
-                            <p class="mh210"><strong>Length: </strong> <br/>This service includes a 15-30 min. free online interview (Zoom, Skype, Facetime) followed by a 90 min. in-person /online consultation.</p>
+                            <p class="mh210"><strong>Length: </strong> <br/>This service includes a 15-30 min. free online interview (Zoom, Skype, Facetime) followed by a 90 min. consultation.</p>
                             <p><strong>Fee: </strong></p>
                             <h4 class="fee">$75</h4>
                         </div>
@@ -46,14 +47,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 brand work">
+                <div class="col-xl-4 col-md-6 brand work">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <div class="tb-border"></div>
                             <div class="lr-border"></div>
                             <p class="text-uppercase mh60">PERSONAL STYLE CONSULTATION</p>
                             <p class="mh60"><strong>Available: </strong> <br/>In-person or Online</p>
-                            <p class="mh210"><strong>Length: </strong> <br/>This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 120 min. in-person consultation.</p>
+                            <p class="mh210"><strong>Length: </strong> <br/>This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 120 min. consultation.</p>
                             <p><strong>Fee: </strong></p>
                             <h4 class="fee">$100</h4>
                         </div>
@@ -62,14 +63,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 work">
+                <div class="col-xl-4 col-md-6 work">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <div class="tb-border"></div>
                             <div class="lr-border"></div>
                             <p class="text-uppercase mh60">WARDROBE AUDIT</p>
                             <p class="mh60"><strong>Available: </strong> <br/>In-person or Online</p>
-                            <p class="mh210"><strong>Length: </strong> <br/>This service includes a 15-30min. free online interview (via Zoom, Skype, Facetime) followed by 3hours of consultation.</p>
+                            <p class="mh210"><strong>Length: </strong> <br/>This service includes a 15-30min. free online interview (via Zoom, Skype, Facetime) followed by 3hours consultation.</p>
                             <p><strong>Fee: </strong></p>
                             <h4 class="fee">$150</h4>
                         </div>
@@ -78,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 brand web">
+                <div class="col-xl-4 col-md-6 brand web">
                     <div class="projects_item p-3 bg-teomoda">
                         <div class="project_box p-3 pb-4 text-center">
                             <div class="tb-border"></div>
@@ -90,6 +91,22 @@
                         </div>
                         <div class="d-flex justify-content-center">
                             <a href="/personal-shopping" class="btn btn-danger service-btn position-relative">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 brand web">
+                    <div class="projects_item p-3 bg-teomoda">
+                        <div class="project_box p-3 pb-4 text-center">
+                            <div class="tb-border"></div>
+                            <div class="lr-border"></div>
+                            <p class="text-uppercase mh60">PERSONALIZED PACKAGE</p>
+                            <p class="mh60"><strong>Available: </strong> <br/>In-person or Online</p>
+                            <p class="mh210"><strong>Length: </strong> <br/>This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 120 min. consultation.</p>
+                            <p><strong>Fee: </strong></p>
+                            <h4 class="fee">$120</h4>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="/personalized-package" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +130,7 @@
                     </div>
                     <div class="item">
                         <div class="testi_item d-flex align-items-center flex-nowrap flex-column justify-content-center">
-                            <p class="mh400"> had a color consultation with Dora, and I must say I never realized which are the colors that suited me the best and which ones are the no-goes for me. But learning about my basic, neutral and statement colors make all the difference! Knowing my best colors, reduces the time I spend in clothes shops as by recognizing them I can focus really on the ones that suit me well and simply ignore the rest.</p>
+                            <p class="mh400">I had a color consultation with Dora, and I must say I never realized which are the colors that suited me the best and which ones are the no-goes for me. But learning about my basic, neutral and statement colors make all the difference! Knowing my best colors, reduces the time I spend in clothes shops as by recognizing them I can focus really on the ones that suit me well and simply ignore the rest.</p>
                             <small><i>/Barbara - Texas, US/</i> </small>
                         </div>
                     </div>
@@ -143,8 +160,8 @@
     <section class="latest_blog_area p_80">
         <div class="container">
             <div class="main_title">
-                <h2>Latest Posts from Blog</h2>
-                <p>No blogs for available</p>
+                <h2>Gallery/Style tips</h2>
+                <p>No Gallery/Style tips for available</p>
             </div>
             {{--
             <div class="row latest_blog_inner">

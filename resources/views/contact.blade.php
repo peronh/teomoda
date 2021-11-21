@@ -5,8 +5,7 @@
 @section('content')
     <!--================Home Banner Area =================-->
     <section class="banner_area">
-        <div class="banner_inner banner_contact d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="banner_inner contact_us d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Contact us</h2>
@@ -36,8 +35,8 @@
                     <div class="contact_info">
                         <div class="info_item">
                             <i class="lnr lnr-home"></i>
-                            <h6>Texas, United States</h6>
-                            <p>City of Katy</p>
+                            <h6>Katy, Texas - United States</h6>
+                            <p></p>
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-phone-handset"></i>

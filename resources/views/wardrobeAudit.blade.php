@@ -4,8 +4,7 @@
 
 @section('content')
     <section class="banner_area">
-        <div class="banner_inner banner_services d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="banner_inner banner_wardrobe_audit d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Wardrobe audit</h2>
@@ -28,7 +27,6 @@
                     <small class="pull-right"><i>(Vivienne Westwood)</i></small>
                 </div>
                 <div class="section-top-border">
-                    <h3 class="mb-30 title_color">Wardrobe solutions for everybody!</h3>
                     <h3 class="mb-30 title_color">Discover the ways to have an organized wardrobe with items that flatter your style, body shape and personal colors the best!</h3>
                     <div class="row">
                         <div class="col-lg-12">

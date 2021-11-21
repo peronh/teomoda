@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Poppins:300,400,500,700");
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,400&display=swap');
 
 
 .list {
@@ -18,14 +19,35 @@ a:hover, a:focus {
     margin: 0; }
 
 body {
-    line-height: 26px;
+    line-height: 24px;
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #777777; }
 
+.page-load {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50000;
+    background: #ffffff;
+}
+
+.page-load-logo img{
+    width: 100px;
+    height: 100px;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Heebo", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold; }
 
 
@@ -69,7 +91,7 @@ button:focus {
     text-align: center;
     margin-bottom: 75px; }
 .main_title h2 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Poppins', cursive;
     font-size: 36px;
     color: #222222;
     font-weight: bold;
@@ -78,7 +100,7 @@ button:focus {
 }
 .main_title p {
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 26px;
     color: #777777;
     margin-bottom: 0;
@@ -109,7 +131,7 @@ button:focus {
 .header_area .navbar .nav .nav-item {
     margin-right: 45px; }
 .header_area .navbar .nav .nav-item .nav-link {
-    font: 500 12px/100px "Roboto", sans-serif;
+    font: 500 12px/100px "Poppins", sans-serif;
     text-transform: uppercase;
     color: #222222;
     padding: 0;
@@ -228,7 +250,7 @@ button:focus {
     line-height: 40px;
     display: inline-block;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     margin-right: 50px;
@@ -240,7 +262,7 @@ button:focus {
 .top_menu .float-right .pur_btn {
     background: #E95075;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 40px;
     display: block;
     padding: 0 40px;
@@ -267,7 +289,7 @@ button:focus {
     color: #222222; }
 .home_banner_area .banner_inner .banner_content h5 {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.1px;
     margin-bottom: 20px; }
@@ -275,14 +297,14 @@ button:focus {
     margin-top: 0;
     font-size: 48px;
     font-weight: bold;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Poppins', cursive;
     line-height: 54px;
     /*text-transform: uppercase;*/
     margin-bottom: 20px;
 }
 .home_banner_area .banner_inner .banner_content p {
     color: #777777;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     max-width: 680px;
     font-size: 14px;
     line-height: 26px;
@@ -321,7 +343,7 @@ button:focus {
 .blog_banner .banner_inner .blog_b_text h2 {
     font-size: 60px;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 66px;
     margin-bottom: 15px; }
 .blog_banner .banner_inner .blog_b_text p {
@@ -351,14 +373,14 @@ button:focus {
 .banner_area .banner_inner .banner_content h2 {
     color: #222222;
     font-size: 36px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Poppins', cursive;
     margin-bottom: 0;
     /*text-transform: uppercase;*/
     font-weight: bold; }
 .banner_area .banner_inner .banner_content .page_link a {
     font-size: 14px;
     color: #777777;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-right: 32px;
     position: relative; }
 .banner_area .banner_inner .banner_content .page_link a:before {
@@ -380,13 +402,13 @@ button:focus {
 .l_blog_item .l_blog_text .date a {
     color: #777777;
     font-size: 12px;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Poppins", sans-serif; }
 .l_blog_item .l_blog_text h4 {
     font-size: 21px;
     color: #222222;
     margin-bottom: 20px;
     transition: all 300ms linear 0s;
-    font-family: "Heebo", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     /*text-transform: uppercase;*/
     max-width: 300px; }
@@ -395,7 +417,7 @@ button:focus {
 .l_blog_item .l_blog_text p {
     margin-bottom: 0;
     font-size: 14px;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Poppins", sans-serif; }
 
 /* End Latest Blog Area css
 ============================================================================================ */
@@ -445,7 +467,7 @@ button:focus {
     padding: 30px 35px 40px 30px; }
 .causes_item .causes_text h4 {
     color: #222222;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -466,7 +488,7 @@ button:focus {
     line-height: 50px;
     background: #E95075;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 500; }
 .causes_item .causes_bottom a + a {
@@ -565,14 +587,14 @@ button:focus {
 .blog_info .post_tag {
     padding-bottom: 20px; }
 .blog_info .post_tag a {
-    font: 300 14px/21px "Roboto", sans-serif;
+    font: 300 14px/21px "Poppins", sans-serif;
     color: #222222; }
 .blog_info .post_tag a:hover {
     color: #777777; }
 .blog_info .post_tag a.active {
     color: #E95075; }
 .blog_info .blog_meta li a {
-    font: 300 14px/20px "Roboto", sans-serif;
+    font: 300 14px/20px "Poppins", sans-serif;
     color: #777777;
     vertical-align: middle;
     padding-bottom: 12px;
@@ -1089,27 +1111,27 @@ button:focus {
     box-shadow: none;
     padding: 0 15px;
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group input.placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group input:-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group input::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group .res_select {
@@ -1121,7 +1143,7 @@ button:focus {
     line-height: 36px; }
 .reservation_form .form-group .res_select .current {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group .res_select:after {
@@ -1174,7 +1196,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     border-radius: 0;
     padding-left: 20px; }
 .contact_form .form-group .form-control:focus {
@@ -1225,7 +1247,7 @@ button:focus {
     text-align: center;
     color: #E95075;
     padding-bottom: 10px;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Poppins", sans-serif; }
 .modal-message .modal-dialog .modal-content .modal-header p {
     display: block; }
 
@@ -2435,7 +2457,7 @@ h6 {
     background-size: 200% auto;
     padding: 0 35px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 50px;
@@ -2454,7 +2476,7 @@ h6 {
     background: #E95075;
     padding: 0 32px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 38px;
@@ -2477,7 +2499,7 @@ h6 {
     background-size: 200% auto;
     padding: 0 50px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 50px;
@@ -2496,7 +2518,7 @@ h6 {
     background: #f9f9ff;
     padding: 0 50px;
     color: #222222;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 50px;
@@ -2520,7 +2542,7 @@ h6 {
     display: inline-block;
     border-radius: 5px;
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     transition: all 300ms linear 0s; }
 .banner_btn:hover {
@@ -2534,7 +2556,7 @@ h6 {
     line-height: 40px;
     padding: 0 28px;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     transition: all 300ms linear 0s;
@@ -2549,7 +2571,7 @@ h6 {
     padding: 0 32px;
     font-size: 13px;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #222222;
     line-height: 34px;
     display: inline-block; }
@@ -2566,7 +2588,7 @@ h6 {
     background-size: 200% auto;
     padding: 0 28px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 40px;
@@ -2624,13 +2646,13 @@ h6 {
 .team_item .team_name h4 {
     margin-bottom: 5px;
     color: #222222;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 20px;
     transition: all 300ms linear 0s; }
 .team_item .team_name p {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     margin-bottom: 0; }
 .team_item:hover .team_img:before {
@@ -2661,7 +2683,7 @@ h6 {
     margin-top: 45px; }
 .welcome_text h4 {
     color: #222222;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Poppins', cursive;
     font-size: 36px;
     margin-bottom: 18px;
     /*text-transform: uppercase; */
@@ -2669,7 +2691,7 @@ h6 {
 .welcome_text p {
     max-width: 495px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     margin-bottom: 40px; }
 
@@ -2684,14 +2706,14 @@ h6 {
     -webkit-text-fill-color: transparent; }
 .wel_item h4 {
     font-size: 24px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     color: #222222;
     margin-bottom: 5px;
     margin-top: 10px; }
 .wel_item p {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     margin-bottom: 0; }
 
@@ -2709,7 +2731,7 @@ h6 {
 .tools_expert .skill_main .skill_item h4 {
     text-align: right;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #777777;
     margin-bottom: 15px; }
@@ -2765,7 +2787,7 @@ h6 {
 .feature_item h4 {
     color: #222222;
     font-size: 21px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Poppins', cursive;
     font-weight: bold;
     margin-bottom: 20px;
     /*text-transform: uppercase; */
@@ -2798,7 +2820,7 @@ h6 {
     margin-right: 30px; }
 .projects_fillter .filter li a {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777; }
 .projects_fillter .filter li:last-child {
     margin-right: 0; }
@@ -2831,7 +2853,7 @@ h6 {
     padding-right: 30px; }
 .projects_item .projects_text h4 {
     font-size: 21px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     color: #222222;
     margin-bottom: 5px;
@@ -2916,7 +2938,7 @@ h6 {
 .test_title h2 {
     color: #222222;
     font-size: 36px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     margin-bottom: 12px; }
 .test_title p {
@@ -2951,7 +2973,7 @@ h6 {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
-    font-family: "Heebo", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 0;
     /*text-transform: uppercase; */
 }
@@ -2959,7 +2981,7 @@ h6 {
 .ab_widget p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     margin-bottom: 30px; }
 .ab_widget p a {
@@ -2972,7 +2994,7 @@ h6 {
 .news_widget p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     margin-bottom: 15px; }
 .news_widget .input-group input {
@@ -2983,28 +3005,28 @@ h6 {
     border: none;
     padding: 0 15px;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #cccccc;
     outline: none;
     box-shadow: none; }
 .news_widget .input-group input.placeholder {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #cccccc; }
 .news_widget .input-group input:-moz-placeholder {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #cccccc; }
 .news_widget .input-group input::-moz-placeholder {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #cccccc; }
 .news_widget .input-group input::-webkit-input-placeholder {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #cccccc; }
 .news_widget .input-group .sub-btn {
@@ -3022,7 +3044,7 @@ h6 {
 .social_widget p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     margin-bottom: 10px; }
 .social_widget .list li {
@@ -3048,33 +3070,64 @@ h6 {
     border-radius: 0;
 }
 
-.banner_about {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Nyar.jpeg') ;
-}
-.banner_blog {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Osz.jpeg') ;
-}
-
-.banner_contact {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Tavasz.jpeg') ;
-}
-
-.banner_testimonials {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Tel.jpeg') ;
-}
-
-.banner_services {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 50%), url('/assets/Nyar.jpeg') ;
-}
-
 .banner_inner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+.banner_about {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/teomoda_about.jpg') ;
+}
+.banner_gallery_tips {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/gallery_and_tips_banner.jpg') ;
+}
+
+.banner_contact {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/Tavasz.jpeg') ;
+}
+
+.banner_testimonials {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/Tel.jpeg') ;
+}
+
+.banner_services {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/Osz.jpeg') ;
+}
+.banner_wardrobe_audit {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/wardrobe_banner.jpg') ;
+}
+.personal_shopping {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/personal_shopping_banner.jpeg') ;
+}
+.contact_us {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/contact_banner.jpeg') ;
+}
+.testimonials {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/testimonials_banner.jpeg') ;
+}
+.personal_style_consultation {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/personal_style_consultation_banner.jpg') ;
+}
+.personal_color_consultation {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/personal_color_consultation_banner.jpg') ;
+}
+.personalized_package {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, transparent 18%), url('/assets/personalized_package_banner.jpg') ;
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 50%;
+}
+
 .home-logo-w {
-    width: 200px!important;
+    width: 75px!important;
 }
 
 .project_box {
@@ -3156,6 +3209,7 @@ h6 {
 }
 .main_title_service_text_left,
 .main_title_service_text_right {
+    font-family: Great Vibes;
     font-size: 112px;
     height: 20px;
     position: absolute;
@@ -3184,7 +3238,7 @@ h6 {
 /*    top: 10px;*/
 /*    left: -20px;*/
 /*    font-size: 162px;*/
-/*    font-family: 'Great Vibes', cursive;*/
+/*    font-family: 'Poppins', cursive;*/
 /*    font-style: italic;*/
 /*    opacity: .5;*/
 /*}*/
@@ -3194,7 +3248,7 @@ h6 {
 /*    top: 20px;*/
 /*    right: -10px;*/
 /*    font-size: 162px;*/
-/*    font-family: 'Great Vibes', cursive;*/
+/*    font-family: 'Poppins', cursive;*/
 /*    font-style: italic;*/
 /*    opacity: .5;*/
 /*}*/
@@ -3247,7 +3301,7 @@ h6 {
 }
 @media (max-width: 576px) {
     #home-logo {
-        width: 200px!important;
+        width: 75px!important;
     }
 }
 @media (max-width: 360px) {
@@ -3432,4 +3486,31 @@ html body .pricing-container .project_box button {
 
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: #c7c7c7!important;
+}
+
+@media (max-width: 992px) {
+    .color-box {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 768px) {
+    .color-box {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 476px) {
+    .color-box {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 356px) {
+    .color-box {
+        width: 120px;
+        height: 120px;
+    }
 }
