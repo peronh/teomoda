@@ -32,6 +32,9 @@ Route::get('/wardrobe-audit', function () {
 Route::get('/personal-shopping', function () {
     return view('personalShopping');
 });
+Route::get('/personalized-package', function () {
+    return view('personalizedPackage');
+});
 Route::get('/about', function () {
     return view('about');
 });
@@ -39,7 +42,7 @@ Route::get('/about', function () {
 Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
 Route::post('/contact', [ContactController::class, 'contactPost'])->name('contactPost');
 
-Route::get('/blog', function () {
+Route::get('/gellery-and-style-tips', function () {
     return view('blog');
 });
 Route::get('/testimonials', function () {
