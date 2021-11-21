@@ -6,7 +6,6 @@
     <!--================Home Banner Area =================-->
     <section class="banner_area">
         <div class="banner_inner banner_about d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
             <div class="container">
                 <div class="banner_content text-center position-relative">
                     <h2 class="banner_h2">About Me</h2>
@@ -26,13 +25,13 @@
                 <div class="row d-flex align-items-center pt-5 pb-5">
                     <div class="col-lg-6">
                         <div class="home_left_img p-0">
-                            <img src="assets/feher.jpg" alt="teomoda_profil" class="w-100" >
+                            <img src="assets/about.jpg" alt="teomoda_profil" class="w-100" >
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="banner_content">
-                            <h2>Dora Kery</h2>
-                            <p>Coming from Europe with a teaching
+                            <h3>Dora Kery</h3>
+                            <p class="fon">Coming from Europe with a teaching
                                 background in higher education, I have always
                                 had a passion for color, style, and the
                                 combination of the two which represent an
@@ -66,7 +65,6 @@
                                 silhouettes to wear. This enhancement will boost
                                 confidence and self-esteem that are catalysts
                                 needed to become more successful in life.</p>
-
                         </div>
                     </div>
                 </div>

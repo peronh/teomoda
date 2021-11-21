@@ -1,13 +1,16 @@
 ;(function($){
     "use strict"
 
+    $(window).on("load", function() {
+        $('.page-load').fadeOut(500);
+    });
 
-	var nav_offset_top = $('header').height() + 50;
+    var nav_offset_top = $('header').height() + 50;
     /*-------------------------------------------------------------------------------
 	  Navbar
 	-------------------------------------------------------------------------------*/
 
-	//* Navbar Fixed
+    //* Navbar Fixed
     function navbarFixed(){
         if ( $('.header_area').length ){
             $(window).scroll(function() {
@@ -25,15 +28,15 @@
     navbarFixed();
 
 
-	/*----------------------------------------------------*/
+    /*----------------------------------------------------*/
     /*  Parallax Effect js
     /*----------------------------------------------------*/
-	function parallaxEffect() {
-    	$('.bg-parallax').parallax();
-	}
-	parallaxEffect();
+    function parallaxEffect() {
+        $('.bg-parallax').parallax();
+    }
+    parallaxEffect();
 
-	/*----------------------------------------------------*/
+    /*----------------------------------------------------*/
     /*  MailChimp Slider
     /*-------------------
     function mailChimp(){
@@ -43,17 +46,17 @@
 
 	$('select').niceSelect();
 ---------------------------------*/
-	/*----------------------------------------------------*/
+    /*----------------------------------------------------*/
     /*  Simple LightBox js
     /*----------------------------------------------------*/
     $('.imageGallery1 .light').simpleLightbox();
-/*
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
-*/
-	$(".skill_main").each(function() {
+    /*
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    */
+    $(".skill_main").each(function() {
         $(this).waypoint(function() {
             var progressBar = $(".progress-bar");
             progressBar.each(function(indx){
@@ -67,45 +70,45 @@
     });
 
 
-	/*----------------------------------------------------*/
+    /*----------------------------------------------------*/
     /*  Isotope Fillter js
     /*----------------------------------------------------*/
-/*
-	function projects_isotope(){
-        if ( $('.projects_area').length ){
-            // Activate isotope in container
-			$(".projects_inner").imagesLoaded( function() {
-                $(".projects_inner").isotope({
-                    layoutMode: 'fitRows',
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear'
-                    }
+    /*
+        function projects_isotope(){
+            if ( $('.projects_area').length ){
+                // Activate isotope in container
+                $(".projects_inner").imagesLoaded( function() {
+                    $(".projects_inner").isotope({
+                        layoutMode: 'fitRows',
+                        animationOptions: {
+                            duration: 750,
+                            easing: 'linear'
+                        }
+                    });
                 });
-            });
 
-            // Add isotope click function
-            $(".filter li").on('click',function(){
-                $(".filter li").removeClass("active");
-                $(this).addClass("active");
+                // Add isotope click function
+                $(".filter li").on('click',function(){
+                    $(".filter li").removeClass("active");
+                    $(this).addClass("active");
 
-                var selector = $(this).attr("data-filter");
-                $(".projects_inner").isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 450,
-                        easing: "linear",
-                        queue: false,
-                    }
+                    var selector = $(this).attr("data-filter");
+                    $(".projects_inner").isotope({
+                        filter: selector,
+                        animationOptions: {
+                            duration: 450,
+                            easing: "linear",
+                            queue: false,
+                        }
+                    });
+                    return false;
                 });
-                return false;
-            });
+            }
         }
-    }
-    projects_isotope();
+        projects_isotope();
 
-*/
-	/*----------------------------------------------------*/
+    */
+    /*----------------------------------------------------*/
     /*  Testimonials Slider
     /*----------------------------------------------------*/
     function testimonials_slider(){
@@ -158,6 +161,10 @@
         sessionStorage.param = "personal-shopping";
         sessionStorage.setItem("price", "personal-shopping");
     });
+    $("#personalized-package").click(function ()  {
+        sessionStorage.param = "personalized-package";
+        sessionStorage.setItem("price", "personalized-package");
+    });
 
     $(".contact-btn").click(function ()  {
         sessionStorage.clear();
@@ -180,6 +187,10 @@
     if (param == "personal-shopping")
     {
         $("#contactForm").find("#subject").val("Personal shopping");
+    }
+    if (param == "personalized-package")
+    {
+        $("#contactForm").find("#subject").val("Personalized package");
     }
 
 })(jQuery)

@@ -4,8 +4,7 @@
 
 @section('content')
     <section class="banner_area">
-        <div class="banner_inner banner_services d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="banner_inner personal_color_consultation d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Personal color consultation</h2>
@@ -26,6 +25,14 @@
                 <div class="main_title main_title_service text-center">
                     <h2 class="main_title_pre"><span class="main_title_service_text_left">“</span>The best color in the whole world is the one that looks good on you<span class="main_title_service_text_right">”</span></h2>
                     <small class="pull-right"><i>(Coco Chanel)</i></small>
+                </div>
+                <div class="section-top-border">
+                    <div class="row d-flex justify-content-center flex-wrap">
+                        <div class="color-box" style="background-image: url('assets/AutumnPalette.jpg') ;"></div>
+                        <div class="color-box" style="background-image: url('assets/Spring_Plette.JPG') ;"></div>
+                        <div class="color-box" style="background-image: url('assets/summerpalette.jpg') ;"></div>
+                        <div class="color-box" style="background-image: url('assets/Winterpalette.jpg') ;"></div>
+                    </div>
                 </div>
                 <div class="section-top-border">
                     <h3 class="mb-30 title_color">Have you ever seen people wearing colors that just made them glow?</h3>

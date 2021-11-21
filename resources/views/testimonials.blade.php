@@ -5,8 +5,7 @@
 @section('content')
 
     <section class="banner_area">
-        <div class="banner_inner banner_testimonials d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="banner_inner testimonials d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Testimonials</h2>
@@ -36,7 +35,7 @@
                     </div>
                     <div class="item">
                         <div class="testi_item d-flex align-items-center flex-nowrap flex-column justify-content-center">
-                            <p class="mh400"> had a color consultation with Dora, and I must say I never realized which are the colors that suited me the best and which ones are the no-goes for me. But learning about my basic, neutral and statement colors make all the difference! Knowing my best colors, reduces the time I spend in clothes shops as by recognizing them I can focus really on the ones that suit me well and simply ignore the rest.</p>
+                            <p class="mh400">I had a color consultation with Dora, and I must say I never realized which are the colors that suited me the best and which ones are the no-goes for me. But learning about my basic, neutral and statement colors make all the difference! Knowing my best colors, reduces the time I spend in clothes shops as by recognizing them I can focus really on the ones that suit me well and simply ignore the rest.</p>
                             <small><i>/Barbara - Texas, US/</i> </small>
                         </div>
                     </div>

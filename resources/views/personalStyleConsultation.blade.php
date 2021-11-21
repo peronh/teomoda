@@ -4,8 +4,7 @@
 
 @section('content')
     <section class="banner_area">
-        <div class="banner_inner banner_services d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="banner_inner personal_style_consultation d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Personal style consultation</h2>
@@ -32,8 +31,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <blockquote class="generic-blockquote">
-                                <p> Our appearance in what we wear is reflection of who we are, so it is essential that we know what
-                                    compliments our figure the best with lines, cuts, prints, fabric, and the combination of.</p>
+                                <p> Our appearance in what we wear is reflection of who we are, so it is essential that we know what compliments our figure the best with lines, cuts, prints and  fabric.</p>
                                 <p>Register for a consultation to find your own style that will always make you feel comfortable, confident,
                                     and vibrant.</p>
                                 <p>Sign up for a personal style consultation, where you will be provided with a comprehensive body shape
