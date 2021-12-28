@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="vendors/linericon/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/simplelightbox/dist/simple-lightbox.css">
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
     <link rel="stylesheet" href="vendors/animate-css/animate.css">
     <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
@@ -117,20 +117,15 @@
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/stellar.js"></script>
-<script src="vendors/lightbox/simpleLightbox.min.js"></script>
-{{--<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>--}}
-{{--<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>--}}
-{{--<script src="vendors/isotope/isotope-min.js"></script>--}}
+{{--<script src="vendors/simplelightbox/dist/simple-lightbox.min.js"></script>--}}
+<script src="vendors/simplelightbox/dist/simple-lightbox.jquery.js"></script>
 <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
 @yield('validation')
-{{--<script src="js/jquery.ajaxchimp.min.js"></script>--}}
-{{--<script src="vendors/counter-up/jquery.waypoints.min.js"></script>--}}
-{{--<script src="vendors/counter-up/jquery.counterup.min.js"></script>--}}
-{{--<script src="js/mail-script.js"></script>--}}
-{{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>--}}
-{{--<script src="js/gmaps.min.js"></script>--}}
 <script src="js/theme.js?v={{time()}}"></script>
+<script>
+    $('.gallery a').simpleLightbox();
+</script>
 </body>
 </html>
 

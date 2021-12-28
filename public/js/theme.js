@@ -115,10 +115,11 @@
         if ( $('.testi_slider').length ){
             $('.testi_slider').owlCarousel({
                 loop:true,
-                margin: 30,
+                margin: 10,
                 items: 3,
-                nav: false,
-                autoplay: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+                autoplay: false,
                 smartSpeed: 1500,
                 dots:true,
                 responsiveClass: true,

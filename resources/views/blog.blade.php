@@ -26,50 +26,12 @@
                 <p>No Gallery/Style tips for available</p>
             </div>
             {{--
-            <div class="row latest_blog_inner">
-                <div class="col-lg-4">
-                    <div class="l_blog_item">
-                        <div class="l_blog_img">
-                            <img class="img-fluid" src="assets/blog_demo.JPG" alt="">
-                        </div>
-                        <div class="l_blog_text">
-                            <div class="date">
-                                <a href="#">25 October, 2017  |  By Dora Kery</a>
-                            </div>
-                            <a href="#"><h4>Curabitur sodales ligula euismod ipsum ultrices</h4></a>
-                            <p>Ut vehicula pellentesque tellus, condimentum dapibus orci sollicitudin quis. Vivamus eget felis justo. Donec a lobortis neque, vel molestie enim. In non urna sit amet mi molestie varius at vel ipsum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="l_blog_item">
-                        <div class="l_blog_img">
-                            <img class="img-fluid" src="assets/blog_demo.JPG" alt="">
-                        </div>
-                        <div class="l_blog_text">
-                            <div class="date">
-                                <a href="#">25 October, 2017  |  By Dora Kery</a>
-                            </div>
-                            <a href="#"><h4>Curabitur sodales ligula euismod ipsum ultrices</h4></a>
-                            <p>Ut vehicula pellentesque tellus, condimentum dapibus orci sollicitudin quis. Vivamus eget felis justo. Donec a lobortis neque, vel molestie enim. In non urna sit amet mi molestie varius at vel ipsum. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="l_blog_item">
-                        <div class="l_blog_img">
-                            <img class="img-fluid" src="assets/blog_demo.JPG" alt="">
-                        </div>
-                        <div class="l_blog_text">
-                            <div class="date">
-                                <a href="#">25 October, 2017  |  By Dora Kery</a>
-                            </div>
-                            <a href="#"><h4>Curabitur sodales ligula euismod ipsum ultrices</h4></a>
-                            <p>Ut vehicula pellentesque tellus, condimentum dapibus orci sollicitudin quis. Vivamus eget felis justo. Donec a lobortis neque, vel molestie enim. In non urna sit amet mi molestie varius at vel ipsum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>--}}
+            <div class="gallery d-flex ">
+                <a href="assets/Nyar.jpeg" class="gallery-item" style="background-image: url('assets/Nyar.jpeg')"></a>
+                <a href="assets/Osz.jpeg" class="gallery-item" style="background-image: url('assets/Osz.jpeg')"></a>
+                <a href="assets/contact.jpg" class="gallery-item" style="background-image: url('assets/contact.jpg')"></a>
+            </div>
+            --}}
         </div>
     </section>
 @endsection
