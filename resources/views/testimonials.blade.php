@@ -28,6 +28,12 @@
                 <div class="testi_slider owl-carousel">
                     <div class="item">
                         <div class="testi_item d-flex align-items-center flex-nowrap flex-column justify-content-center">
+                            <p class="mh400">Dora goes beyond just advising:  she teaches.   I learned how my clothing items can be combined in many different ways, and got on the road to dressing myself in a way that reflects my personality.  The outfits Dora put together from my wardrobe were a real revelation!  I can hardly wait to try all the possible combinations.  Thank you Dora!</p>
+                            <small><i>/Mary, Budapest, Hungary/</i> </small>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testi_item d-flex align-items-center flex-nowrap flex-column justify-content-center">
                             <p class="mh400">Before consulting with Dora, I had the usual difficulties when getting dressed, feeling: "I have nothing to wear, although my closet is full of clothes".<br/>
                                 However, having had a personal style and body analysis, followed by a wardrobe editing consultation, now the time for getting dressed is reduced dramatically. I was given guidance as to how I should re-organize my wardrobe, how to create sets and outfits easily. During this process I also learnt how to revive some pieces that I have not really used before.</p>
                             <small><i>/Orsolya, Hungary/</i> </small>
