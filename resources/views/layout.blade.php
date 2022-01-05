@@ -55,7 +55,7 @@
                                 <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personalized-package">PERSONALIZED PACKAGE</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'blog' ? 'active' : '' }}" href="/gellery-and-style-tips">Gallery/Style tips</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'gellery-and-style-tips' ? 'active' : '' }}" href="/gellery-and-style-tips">Gallery/Style tips</a></li>
                         <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'testimonials' ? 'active' : '' }}" href="/testimonials">Testimonials</a></li>
                         <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'contact' ? 'active' : '' }}" href="/contact">Contact</a></li>
                     </ul>
