@@ -58,6 +58,9 @@
                 <a href="assets/gallery_and_tips/gallery_19.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_19.jpg');background-position: center top"></a>
                 <a href="assets/gallery_and_tips/gallery_20.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_20.jpg');background-position: center top"></a>
                 <a href="assets/gallery_and_tips/gallery_21.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_21.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_22.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_22.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_23.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_23.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_24.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_24.jpg');background-position: center top"></a>
             </div>
 
         </div>
