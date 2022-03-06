@@ -25,13 +25,42 @@
                 <h2>Gallery/Style tips</h2>
                 <p>No Gallery/Style tips for available</p>
             </div>
-            {{--
-            <div class="gallery d-flex ">
-                <a href="assets/Nyar.jpeg" class="gallery-item" style="background-image: url('assets/Nyar.jpeg')"></a>
-                <a href="assets/Osz.jpeg" class="gallery-item" style="background-image: url('assets/Osz.jpeg')"></a>
-                <a href="assets/contact.jpg" class="gallery-item" style="background-image: url('assets/contact.jpg')"></a>
+
+            <div class="projects_fillter">
+                <ul class="filter list">
+                    <li class="active" data-filter="*"><a href="#">All Categories</a></li>
+                    <li data-filter=".brand"><a href="#">Color & clothing combinations</a></li>
+{{--                    <li data-filter=".work"><a href="#">Creative Work </a></li>--}}
+{{--                    <li data-filter=".web"><a href="#">Web Design</a></li>--}}
+                </ul>
             </div>
-            --}}
+
+            <div class="gallery d-flex flex-wrap justify-content-center projects_inner">
+
+                <a href="assets/gallery_and_tips/gallery_1.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_1.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_2.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_2.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_3.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_3.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_4.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_4.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_5.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_5.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_6.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_6.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_7.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_7.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_8.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_8.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_9.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_9.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_10.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_10.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_11.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_11.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_12.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_12.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_13.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_13.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_14.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_14.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_15.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_15.JPG');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_16.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_16.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_17.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_17.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_18.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_18.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_19.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_19.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_20.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_20.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_21.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_21.jpg');background-position: center top"></a>
+            </div>
+
         </div>
     </section>
+
 @endsection

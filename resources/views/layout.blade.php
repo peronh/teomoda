@@ -120,6 +120,12 @@
 {{--<script src="vendors/simplelightbox/dist/simple-lightbox.min.js"></script>--}}
 <script src="vendors/simplelightbox/dist/simple-lightbox.jquery.js"></script>
 <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+<script src="vendors/counter-up/jquery.counterup.min.js"></script>
+<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="vendors/isotope/isotope-min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
 @yield('validation')
 <script src="js/theme.js?v={{time()}}"></script>
