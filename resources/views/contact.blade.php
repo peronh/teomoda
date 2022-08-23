@@ -35,12 +35,12 @@
                     <div class="contact_info">
                         <div class="info_item">
                             <i class="lnr lnr-home"></i>
-                            <h6>Katy, Texas - United States</h6>
+                            <h6>Wiesbaden, Germany</h6>
                             <p></p>
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-phone-handset"></i>
-                            <h6><a href="tel:+7138285432">+713-828-5432</a></h6>
+                            <h6><a href="tel:+4915153341134">+49 151 533 411 34</a></h6>
                             <p>If you have any questions, feel free to give me a call</p>
                         </div>
                         <div class="info_item">
