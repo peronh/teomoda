@@ -37,6 +37,16 @@
 
             <div class="gallery d-flex flex-wrap justify-content-center projects_inner">
 
+                <a href="assets/gallery_and_tips/gallery_25.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_25.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_26.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_26.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_27.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_27.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_28.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_28.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_29.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_29.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_30.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_30.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_31.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_31.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_32.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_32.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_33.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_33.jpg');background-position: center top"></a>
+                <a href="assets/gallery_and_tips/gallery_34.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_34.jpg');background-position: center top"></a>
                 <a href="assets/gallery_and_tips/gallery_1.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_1.JPG');background-position: center top"></a>
                 <a href="assets/gallery_and_tips/gallery_2.JPG" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_2.JPG');background-position: center top"></a>
                 <a href="assets/gallery_and_tips/gallery_3.jpg" class="gallery-item brand" style="background-image: url('assets/gallery_and_tips/gallery_3.jpg');background-position: center top"></a>
