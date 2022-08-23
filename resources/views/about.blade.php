@@ -31,6 +31,9 @@
                     <div class="col-lg-6">
                         <div class="banner_content">
                             <h3>Dora Kery</h3>
+                            <h4>Certified personal stylist</h4>
+                            <h4>Certified color consultant</h4>
+                            <h4>Certified virtual personal stylist</h4>
                             <p class="fon">Coming from Europe with a teaching
                                 background in higher education, I have always
                                 had a passion for color, style, and the
