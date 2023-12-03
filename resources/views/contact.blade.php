@@ -127,6 +127,11 @@
             });
         });
 
-
+        function onSubmit(token)
+        {
+            document.getElementById("contactForm").submit();
+        }
+        let date  = new Date();
+        console.log(date.getHours() +':'+date.getMinutes());
     </script>
 @endsection
