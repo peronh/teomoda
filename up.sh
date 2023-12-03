@@ -2,4 +2,4 @@
 # Database reload script
 
 git pull origin master -n
-composer install -n
+composer install /home/modadpco/public_html/teomoda.com
