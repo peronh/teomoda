@@ -73,6 +73,7 @@
                                 <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
                                 <span class="text-danger">{{ $errors->first('comment') }}</span>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_SITE_KEY') }}"></div>
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn" >Send Message</button>
                             </div>
@@ -86,6 +87,8 @@
 @endsection
 
 @section('validation')
+    <script src="/js/validate.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
 
         $(function() {
@@ -124,6 +127,7 @@
                 }
             });
         });
+
 
     </script>
 @endsection

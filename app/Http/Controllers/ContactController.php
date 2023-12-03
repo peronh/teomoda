@@ -4,20 +4,29 @@ namespace App\Http\Controllers;
 
 
 use Exception;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
+use ReCaptcha\ReCaptcha;
 
 class ContactController extends Controller
 {
 
     /**
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     * @return Application|Factory|View
      */
     public function contact(){
         return view('contact');
     }
 
-    public function contactPost(Request $request){
+    /**
+     * @throws ValidationException
+     */
+    public function contactPost(Request $request): \Illuminate\Http\RedirectResponse
+    {
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',
@@ -31,13 +40,28 @@ class ContactController extends Controller
             'subject' => $request->get('subject')
         ];
 
-        Mail::send('emails.email',
-            $data,
-            function ($message) {
-                $message->from('support@teomoda.com');
-                $message->to('dora@teomoda.com', 'Dora Kery')
+        $recaptcha = new ReCaptcha(env('GOOGLE_RECAPTCHA_SECRET'));
+
+//        $response = $recaptcha->setExpectedHostname('teomoda.com')
+//            ->setExpectedAction('homepage')
+//            ->setScoreThreshold(0.5)
+//            ->verify($request->input('g-recaptcha-response'));
+
+        $response = $recaptcha->verify($request->input('g-recaptcha-response'));
+
+        if ($response->isSuccess()) {
+            Mail::send('emails.email',
+                $data,
+                function ($message) {
+                    $message->from('support@teomoda.com');
+                    $message->to('dora@teomoda.com', 'Dora Kery')
                         ->subject('Message from teomoda.com website');
-            });
+                });
+        } else {
+            return redirect()->back()->with('error', $response);
+        }
+
+
 
         try
         {
