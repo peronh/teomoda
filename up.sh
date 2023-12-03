@@ -1,6 +1,5 @@
 #!/bin/sh
 # Database reload script
 
-php artisan cache:clear
-git pull origin master
-composer install
+git pull origin master -n
+composer.phar install -n
