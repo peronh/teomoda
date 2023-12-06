@@ -41,16 +41,16 @@ class ContactController extends Controller
         ];
 
         //TODO: uncomment this when you want to use recaptcha
-//        $recaptcha = new ReCaptcha(env('GOOGLE_RECAPTCHA_SECRET'));
+        $recaptcha = new ReCaptcha(env('GOOGLE_RECAPTCHA_SECRET'));
 
-//        $response = $recaptcha->setExpectedHostname('teomoda.com')
-//            ->setExpectedAction('homepage')
-//            ->setScoreThreshold(0.5)
-//            ->verify($request->input('g-recaptcha-response'));
+        $response = $recaptcha->setExpectedHostname('teomoda.com')
+            ->setExpectedAction('homepage')
+            ->setScoreThreshold(0.5)
+            ->verify($request->input('g-recaptcha-response'));
 
 //        $response = $recaptcha->verify($request->input('g-recaptcha-response'));
 
-//        if ($response->isSuccess()) {
+        if ($response->isSuccess()) {
             Mail::send('emails.email',
                 $data,
                 function ($message) {
@@ -58,9 +58,9 @@ class ContactController extends Controller
                     $message->to('dora@teomoda.com', 'Dora Kery')
                         ->subject('Message from teomoda.com website');
                 });
-//        } else {
-//            return redirect()->back()->with('error', $response);
-//        }
+        } else {
+            return redirect()->back()->with('error', $response);
+        }
 
 
 
