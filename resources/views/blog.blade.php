@@ -28,8 +28,8 @@
 
             <div class="projects_fillter">
                 <ul class="filter list button-group">
-                    <li data-filter="*"><button class=" btn is-checked banner_btn">All Categories</button></li>
-                    <li data-filter=".our_best_colors"><button class="btn banner_btn">Our best colors</button></li>
+{{--                    <li data-filter="*"><button class=" btn is-checked banner_btn">All Categories</button></li>--}}
+                    <li data-filter=".our_best_colors"><button class="btn banner_btn is-checked">Our best colors</button></li>
                     <li data-filter=".styling_ideas"><button class="btn banner_btn">Styling ideas</button></li>
                     <li data-filter=".using_accessories"><button class="btn banner_btn">Using accessories</button></li>
 {{--                    <li data-filter=".web"><a href="#">Web Design</a></li>--}}
@@ -62,7 +62,6 @@
                 <a href="/assets/gallery_and_tips/gallery_34.jpg" class="gallery-item styling_ideas" style="background-image: url('/assets/gallery_and_tips/gallery_34.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/grey dress1.jpg" class="gallery-item styling_ideas" style="background-image: url('/assets/gallery_and_tips/grey dress1.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/grey dress2.jpg" class="gallery-item styling_ideas" style="background-image: url('/assets/gallery_and_tips/grey dress2.jpg');background-position: center top"></a>
-                <a href="/assets/gallery_and_tips/grey dress2.jpg" class="gallery-item styling_ideas" style="background-image: url('/assets/gallery_and_tips/grey dress2.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/gallery_1.JPG" class="gallery-item using_accessories" style="background-image: url('/assets/gallery_and_tips/gallery_1.JPG');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/gallery_27.jpg" class="gallery-item using_accessories" style="background-image: url('/assets/gallery_and_tips/gallery_27.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/gallery_28.jpg" class="gallery-item using_accessories" style="background-image: url('/assets/gallery_and_tips/gallery_28.jpg');background-position: center top"></a>
@@ -88,6 +87,7 @@
     <script>
         let grid = $(".grid").isotope({
             itemSelector: ".gallery-item",
+            filter: '.our_best_colors',
             percentPosition: true,
             layoutMode: 'masonry',
             masonry: {
@@ -99,6 +99,7 @@
                 easing: 'linear'
             }
         });
+
 
         $('.projects_fillter').on( 'click', 'li', function() {
             let filterValue = $( this ).attr('data-filter');
