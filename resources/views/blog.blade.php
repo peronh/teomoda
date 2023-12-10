@@ -36,8 +36,7 @@
                 </ul>
             </div>
 
-            <div id="gallery" class="gallery d-flex flex-wrap justify-content-center projects_inner">
-
+            <div id="gallery" class="grid gallery d-flex flex-wrap justify-content-center projects_inner">
                 <a href="/assets/gallery_and_tips/gallery_26.jpg" class="gallery-item our_best_colors" style="background-image: url('/assets/gallery_and_tips/gallery_26.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/IMG_1420.jpg" class="gallery-item our_best_colors" style="background-image: url('/assets/gallery_and_tips/IMG_1420.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/IMG_2169.jpg" class="gallery-item our_best_colors" style="background-image: url('/assets/gallery_and_tips/IMG_2169.jpg');background-position: center top"></a>
@@ -79,10 +78,45 @@
                 <a href="/assets/gallery_and_tips/IMG_6985.jpg" class="gallery-item using_accessories" style="background-image: url('/assets/gallery_and_tips/IMG_6985.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/IMG_9417.jpg" class="gallery-item using_accessories" style="background-image: url('/assets/gallery_and_tips/IMG_9417.jpg');background-position: center top"></a>
                 <a href="/assets/gallery_and_tips/IMG_9837.JPG" class="gallery-item using_accessories" style="background-image: url('/assets/gallery_and_tips/IMG_9837.JPG');background-position: center top"></a>
-
             </div>
 
         </div>
     </section>
+
+@endsection
+@section('validation')
+    <script>
+        let grid = $(".grid").isotope({
+            itemSelector: ".gallery-item",
+            percentPosition: true,
+            layoutMode: 'masonry',
+            masonry: {
+                columnWidth: 20
+            },
+
+            animationOptions: {
+                duration: 750,
+                easing: 'linear'
+            }
+        });
+
+        $('.projects_fillter').on( 'click', 'li', function() {
+            let filterValue = $( this ).attr('data-filter');
+            grid.isotope({ filter: filterValue });
+        });
+
+        $('.button-group').each( function( i, buttonGroup ) {
+            var $buttonGroup = $( buttonGroup );
+            $buttonGroup.on( 'click', 'button', function() {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $( this ).addClass('is-checked');
+            });
+        });
+
+        grid.imagesLoaded().progress(function() {
+            $grid.isotope('layout');
+        });
+
+    </script>
 
 @endsection
