@@ -3559,3 +3559,11 @@ html body .pricing-container .project_box button {
         height: 120px;
     }
 }
+
+
+.is-checked,
+.is-checked:hover {
+    background-color: transparent;
+    color: #E95075;
+    border-color: #E95075
+}
