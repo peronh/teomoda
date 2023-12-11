@@ -49,7 +49,6 @@ class ContactController extends Controller
 //            ->verify($request->input('g-recaptcha-response'));
 
         $response = $recaptcha->verify($request->input('g-recaptcha-response'));
-dump($response->isSuccess());die;
         if ($response->isSuccess()) {
             Mail::send('emails.email',
                 $data,
