@@ -73,8 +73,17 @@
                                 <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
                                 <span class="text-danger">{{ $errors->first('comment') }}</span>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_SITE_KEY') }}"></div>
+
                             <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="g-recaptcha btn submit_btn" data-sitekey="{{ env('GOOGLE_RECAPTCHA_SITE_KEY') }}" data-callback='onSubmit' data-action='submit'>Send Message</button>
+                                <button type="submit" value="submit"
+                                        class="
+{{--                                        g-recaptcha --}}
+                                        btn submit_btn"
+{{--                                        data-sitekey="{{ env('GOOGLE_RECAPTCHA_SITE_KEY') }}"--}}
+{{--                                        data-callback='onSubmit'--}}
+{{--                                        data-action='submit'--}}
+                                >Send Message</button>
                             </div>
                         </div>
                     </form>

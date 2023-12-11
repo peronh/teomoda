@@ -43,13 +43,13 @@ class ContactController extends Controller
         //TODO: uncomment this when you want to use recaptcha
         $recaptcha = new ReCaptcha(env('GOOGLE_RECAPTCHA_SECRET'));
 
-        $response = $recaptcha->setExpectedHostname('teomoda.com')
-            ->setExpectedAction('homepage')
-            ->setScoreThreshold(0.5)
-            ->verify($request->input('g-recaptcha-response'));
+//        $response = $recaptcha->setExpectedHostname('teomoda.com')
+//            ->setExpectedAction('homepage')
+//            ->setScoreThreshold(0.5)
+//            ->verify($request->input('g-recaptcha-response'));
 
-//        $response = $recaptcha->verify($request->input('g-recaptcha-response'));
-
+        $response = $recaptcha->verify($request->input('g-recaptcha-response'));
+dump($response->isSuccess());die;
         if ($response->isSuccess()) {
             Mail::send('emails.email',
                 $data,
