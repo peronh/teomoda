@@ -75,9 +75,7 @@
                             </div>
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit"
-                                        class="
-                                        g-recaptcha
-                                        btn submit_btn"
+                                        class="g-recaptcha btn submit_btn"
                                         data-sitekey="{{ env('GOOGLE_RECAPTCHA_SITE_KEY') }}"
                                         data-callback='onSubmit'
                                         data-action='submit'

@@ -9,8 +9,8 @@
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Services</h2>
                     <div class="page_link">
-                        <a class="banner_a" href="/">Home</a>
-                        <a class="banner_a" href="/services">Services</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/">Home</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/services">Services</a>
                     </div>
 
                 </div>
@@ -38,7 +38,7 @@
                             <h4 class="fee">$75</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personal-color-consultation" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personal-color-consultation" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                             <h4 class="fee">$100</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personal-style-consultation" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personal-style-consultation" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             <h4 class="fee">$150</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/wardrobe-audit" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/wardrobe-audit" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                             <h4 class="fee">$250</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personal-shopping" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personal-shopping" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                             <h4 class="fee">$120</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personalized-package" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personalized-package" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>

@@ -4,28 +4,28 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="favicon.ico" type="image/png">
+    <link rel="icon" href="/favicon.ico" type="image/png">
     <title>@yield('title', 'Teomoda | homepage')</title>
     <meta content="@yield('meta_keywords','some default keywords')" name="keywords">
     <meta property="og:type" content="article" />
     <meta property="og:description" content="@yield('meta_description','Styling you to feel radiant, comfortable and confident, all within your budget.')">
     <meta property="og:url" content="@yield('meta_url','http://teomoda.com/assets/dora-kery-profil.jpg')">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="vendors/linericon/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/simplelightbox/dist/simple-lightbox.css">
-    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-    <link rel="stylesheet" href="vendors/animate-css/animate.css">
-    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/vendors/linericon/style.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/vendors/simplelightbox/dist/simple-lightbox.css">
+    <link rel="stylesheet" href="/vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="/vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="/vendors/flaticon/flaticon.css">
     <!-- main css -->
-    <link rel="stylesheet" href="css/style.css?v={{time()}}">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/css/style.css?v={{time()}}">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
 <div class="page-load" >
     <div class="page-load-logo">
-        <img src="assets/pre-loader.gif" alt="load">
+        <img src="/assets/pre-loader.gif" alt="load">
     </div>
 </div>
 <!--================Header Menu Area =================-->
@@ -34,7 +34,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container box_1620">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <a class="navbar-brand logo_h" href="/"><img src="assets/icon.png" id="home-logo" alt="teomoda" width="75"></a>
+                <a class="navbar-brand logo_h" href="/"><img src="/assets/icon.png" id="home-logo" alt="teomoda" width="75"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -42,22 +42,25 @@
                 </button>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    @foreach(config('app.available_locales') as $locale => $language)
+                        <a href="{{ url($locale) }}" class="mr-2" data-toggle="tooltip" title="@lang('layout.lang_'.$locale)"><img src="/assets/flags/{{$locale}}.svg" alt="teomoda flag" width="25" style="border-radius: 50%; border: 2px solid rgb(178,240,255);"></a>
+                    @endforeach
                     <ul class="nav navbar-nav menu_nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link teomoda_color position-relative {{ Request::path() == '/' ? 'active' : '' }}" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'about' ? 'active' : '' }}" href="/about">About</a></li>
+                        <li class="nav-item active"><a class="nav-link teomoda_color position-relative {{ Request::path() == '/' ? 'active' : '' }}" href="/{{ app()->getLocale() }}">@lang('layout.home')</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative {{ Request::path() == 'about' ? 'active' : '' }}" href="/{{ app()->getLocale() }}/about">@lang('layout.about')</a></li>
                         <li class="nav-item submenu ">
-                            <a id="nav-link-services" href="/services" class="nav-link dropdown-toggle teomoda_color position-relative {{ Request::path() == 'services' ? 'active' : '' }}" role="button" aria-haspopup="true" aria-expanded="false" >Services</a>
+                            <a id="nav-link-services" href="/{{ app()->getLocale() }}/services" class="nav-link dropdown-toggle teomoda_color position-relative {{ Request::path() == 'services' ? 'active' : '' }}" role="button" aria-haspopup="true" aria-expanded="false" >@lang('layout.services')</a>
                             <ul class="dropdown dropdown-menu">
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-color-consultation">PERSONAL COLOR CONSULTATION</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-style-consultation">PERSONAL STYLE CONSULTATION</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/wardrobe-audit">WARDROBE AUDIT</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personal-shopping">PERSONAL SHOPPING</a></li>
-                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/personalized-package">PERSONALIZED PACKAGE</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/{{ app()->getLocale() }}/personal-color-consultation">@lang('layout.personal_color_consultation')</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/{{ app()->getLocale() }}/personal-style-consultation">@lang('layout.personal_style_consultation')</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/{{ app()->getLocale() }}/wardrobe-audit">@lang('layout.wardrobe_audit')</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/{{ app()->getLocale() }}/personal-shopping">@lang('layout.personal_shopping')</a></li>
+                                <li class="nav-item"><a class="dropdown-nav-link nav-link teomoda_color" href="/{{ app()->getLocale() }}/personalized-package">@lang('layout.personalized_package')</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'gellery-and-style-tips' ? 'active' : '' }}" href="/gellery-and-style-tips">Gallery/Style tips</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'testimonials' ? 'active' : '' }}" href="/testimonials">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'contact' ? 'active' : '' }}" href="/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'gellery-and-style-tips' ? 'active' : '' }}" href="/{{ app()->getLocale() }}/gellery-and-style-tips">@lang('layout.gallery_and_style_tips')</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'testimonials' ? 'active' : '' }}" href="/{{ app()->getLocale() }}/testimonials">@lang('layout.testimonials')</a></li>
+                        <li class="nav-item"><a class="nav-link teomoda_color position-relative contact-btn {{ Request::path() == 'contact' ? 'active' : '' }}" href="/{{ app()->getLocale() }}/contact">@lang('layout.contact')</a></li>
                     </ul>
                 </div>
             </div>
@@ -87,12 +90,12 @@
                         <h3>Quick menu</h3>
                     </div>
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link p-0 text-light teomoda_color" href="/">Home</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/about">About</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/services">Services</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/gellery-and-style-tips">Gallery/Style tips</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/testimonials">Testimonials</a></li>
-                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/contact">Contact</a></li>
+                            <li class="nav-item active"><a class="nav-link p-0 text-light teomoda_color" href="/{{ app()->getLocale() }}/">@lang('layout.home')</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/{{ app()->getLocale() }}/about">@lang('layout.about')</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/{{ app()->getLocale() }}/services">@lang('layout.services')</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/{{ app()->getLocale() }}/gellery-and-style-tips">@lang('layout.gallery_and_style_tips')</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/{{ app()->getLocale() }}/testimonials">@lang('layout.testimonials')</a></li>
+                            <li class="nav-item"><a class="nav-link p-0 text-light teomoda_color" href="/{{ app()->getLocale() }}/contact">@lang('layout.contact')</a></li>
                         </ul>
                 </aside>
             </div>
@@ -113,22 +116,24 @@
     </div>
 </footer>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/stellar.js"></script>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/popper.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/stellar.js"></script>
 {{--<script src="vendors/simplelightbox/dist/simple-lightbox.min.js"></script>--}}
-<script src="vendors/simplelightbox/dist/simple-lightbox.jquery.js"></script>
-<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="js/jquery.ajaxchimp.min.js"></script>
-<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-<script src="vendors/counter-up/jquery.counterup.min.js"></script>
-<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-<script src="vendors/isotope/isotope-min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<script src="/vendors/simplelightbox/dist/simple-lightbox.jquery.js"></script>
+<script src="/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="/js/jquery.ajaxchimp.min.js"></script>
+<script src="/vendors/counter-up/jquery.waypoints.min.js"></script>
+<script src="/vendors/counter-up/jquery.counterup.min.js"></script>
+<script src="/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="/vendors/isotope/isotope.pkgd.js"></script>
+<script src="/vendors/isotope/fit-column.js"></script>
+{{--<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>--}}
+<!-- or -->
 @yield('validation')
-<script src="js/theme.js?v={{time()}}"></script>
+<script src="/js/theme.js?v={{time()}}"></script>
 <script>
     $('.gallery a').simpleLightbox();
 </script>

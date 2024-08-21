@@ -9,9 +9,9 @@
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Personal shopping</h2>
                     <div class="page_link">
-                        <a class="banner_a" href="/">Home</a>
-                        <a class="banner_a" href="/services">Services</a>
-                        <a class="banner_a" href="/personal-color-consultation ">Personal shopping</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/">Home</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/services">Services</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/personal-color-consultation ">Personal shopping</a>
                     </div>
 
                 </div>
@@ -65,7 +65,7 @@
                         <i class="lnr lnr-database"></i>
                         <h4>$250</h4>
                         <p><strong>Length: </strong> This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 3hour in-person shopping and a 1hour (virtual) follow up.</p>
-                        <a id="personal-shopping" href="/contact" class="btn btn-danger mt-3 position-relative">choose</a>
+                        <a id="personal-shopping" href="/{{ app()->getLocale() }}/contact" class="btn btn-danger mt-3 position-relative">choose</a>
                     </div>
                 </div>
             </div>

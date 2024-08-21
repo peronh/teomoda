@@ -10,8 +10,8 @@
                 <div class="banner_content text-center position-relative">
                     <h2 class="banner_h2">About Me</h2>
                     <div class="page_link">
-                        <a class="banner_a" href="/">Home</a>
-                        <a class="banner_a" href="/about">About Me</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/">Home</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/about">About Me</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                 <div class="row d-flex align-items-center pt-5 pb-5">
                     <div class="col-lg-6">
                         <div class="home_left_img p-0">
-                            <img src="assets/about.jpg" alt="teomoda_profil" class="w-100" >
+                            <img src="/assets/about.jpg" alt="teomoda_profil" class="w-100" >
                         </div>
                     </div>
                     <div class="col-lg-6">

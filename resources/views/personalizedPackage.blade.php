@@ -9,8 +9,8 @@
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Personalized Package</h2>
                     <div class="page_link">
-                        <a class="banner_a" href="/">Home</a>
-                        <a class="banner_a" href="/personalized-package ">Personalized Package</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/">Home</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/personalized-package ">Personalized Package</a>
                     </div>
 
                 </div>
@@ -77,7 +77,7 @@
                         <h4>$120</h4>
                         <p><strong>Available: </strong> In-person or Online</p>
                         <p><strong>Length: </strong> This service includes a 15-30 min. free online interview and preparation session (Zoom, Skype, Facetime) followed by a 120 min. in-person consultation.</p>
-                        <a id="personalized-package" href="/contact" class="btn btn-danger mt-3 position-relative">choose</a>
+                        <a id="personalized-package" href="/{{ app()->getLocale() }}/contact" class="btn btn-danger mt-3 position-relative">choose</a>
                     </div>
                 </div>
             </div>

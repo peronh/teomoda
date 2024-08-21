@@ -9,9 +9,9 @@
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Personal color consultation</h2>
                     <div class="page_link">
-                        <a class="banner_a" href="/">Home</a>
-                        <a class="banner_a" href="/services">Services</a>
-                        <a class="banner_a" href="/personal-color-consultation ">Personal color consultation</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/">Home</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/services">Services</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/personal-color-consultation ">Personal color consultation</a>
                     </div>
 
                 </div>
@@ -91,7 +91,7 @@
                         <h4>$75</h4>
                         <p><strong>Available: </strong> In-person or Online</p>
                         <p><strong>Length: </strong> This service includes a 15-30 min. free online interview (Zoom, Skype, Facetime) followed by a 90 min. in-person /online consultation.</p>
-                        <a id="personal-color-consultation" href="/contact" class="btn btn-danger mt-3 position-relative">choose</a>
+                        <a id="personal-color-consultation" href="/{{ app()->getLocale() }}/contact" class="btn btn-danger mt-3 position-relative">choose</a>
                     </div>
                 </div>
             </div>

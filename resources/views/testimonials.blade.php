@@ -10,8 +10,8 @@
                 <div class="banner_content text-center">
                     <h2 class="banner_h2">Testimonials</h2>
                     <div class="page_link">
-                        <a class="banner_a" href="/">Home</a>
-                        <a class="banner_a" href="/testimonials">TESTIMONIALS</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/">Home</a>
+                        <a class="banner_a" href="/{{ app()->getLocale() }}/testimonials">TESTIMONIALS</a>
                     </div>
 
                 </div>

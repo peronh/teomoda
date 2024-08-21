@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="home_left_img">
-                            <img src="assets/dora-kery.jpg" alt="teomoda_profil" class="w-100" >
+                            <img src="/assets/dora-kery.jpg" alt="teomoda_profil" class="w-100" >
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -17,7 +17,7 @@
                             <h3>Dora Kery</h3>
                             <p>My motto is:</p>
                             <h4 class="font-italic font-weight-normal">“Styling you to feel radiant, comfortable and confident, all within your budget.”</h4>
-                            <a class="banner_btn mt-3" href="/about">ABOUT MORE</a>
+                            <a class="banner_btn mt-3" href="/{{ app()->getLocale() }}/about">ABOUT MORE</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                             <h4 class="fee">$75</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personal-color-consultation" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personal-color-consultation" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                             <h4 class="fee">$100</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personal-style-consultation" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personal-style-consultation" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                             <h4 class="fee">$150</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/wardrobe-audit" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/wardrobe-audit" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             <h4 class="fee">$250</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personal-shopping" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personal-shopping" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                             <h4 class="fee">$120</h4>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="/personalized-package" class="btn btn-danger service-btn position-relative">read more</a>
+                            <a href="/{{ app()->getLocale() }}/personalized-package" class="btn btn-danger service-btn position-relative">read more</a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                 <div class="col-lg-4">
                     <div class="l_blog_item">
                         <div class="l_blog_img">
-                            <img class="img-fluid" src="assets/blog_demo.JPG" alt="">
+                            <img class="img-fluid" src="/assets/blog_demo.JPG" alt="">
                         </div>
                         <div class="l_blog_text">
                             <div class="date">
@@ -188,7 +188,7 @@
                 <div class="col-lg-4">
                     <div class="l_blog_item">
                         <div class="l_blog_img">
-                            <img class="img-fluid" src="assets/blog_demo.JPG" alt="">
+                            <img class="img-fluid" src="/assets/blog_demo.JPG" alt="">
                         </div>
                         <div class="l_blog_text">
                             <div class="date">
@@ -202,7 +202,7 @@
                 <div class="col-lg-4">
                     <div class="l_blog_item">
                         <div class="l_blog_img">
-                            <img class="img-fluid" src="assets/blog_demo.JPG" alt="">
+                            <img class="img-fluid" src="/assets/blog_demo.JPG" alt="">
                         </div>
                         <div class="l_blog_text">
                             <div class="date">
