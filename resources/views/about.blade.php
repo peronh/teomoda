@@ -37,8 +37,8 @@
                             <p class="fon">@lang('about.about_4')</p>
                             <p>@lang('about.about_5')</p>
                             <p>@lang('about.about_6')</p>
-                            <p>@lang('about.about_7')</p>
-                            <p>@lang('about.about_8')</p>
+                            <p>@lang('about.motto_is')</p>
+                            <p>@lang('about.motto_idea')</p>
                             <p>@lang('about.about_9')</p>
                         </div>
                     </div>

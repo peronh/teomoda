@@ -33,8 +33,8 @@ selbst so vorteilhaft und strahlend zu
 präsentieren, wie sie es verdienen, und dabei
 gleichzeitig auf ihren einzigartigen Teint und ihre
 Figur achten.',
-    'about_7' => 'Mein Motto ist:',
-    'about_8' => '„Styling, damit Sie sich strahlend, bequem
+    'motto_is' => 'Mein Motto ist:',
+    'motto_idea' => '„Styling, damit Sie sich strahlend, bequem
 und selbstbewusst fühlen, und das alles im
 Rahmen Ihres Budgets.“',
     'about_9' => 'Ich glaube fest an die psychologische Kraft, die

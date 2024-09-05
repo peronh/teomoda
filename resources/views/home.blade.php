@@ -15,8 +15,8 @@
                         <div class="banner_content">
                             <h5>@lang('layout.about_me')</h5>
                             <h3>Dora Kery</h3>
-                            <p>My motto is:</p>
-                            <h4 class="font-italic font-weight-normal">“Styling you to feel radiant, comfortable and confident, all within your budget.”</h4>
+                            <p>@lang('about.motto_is'):</p>
+                            <h4 class="font-italic font-weight-normal">@lang('about.motto_idea')</h4>
                             <a class="banner_btn mt-3" href="/{{ app()->getLocale() }}/about">ABOUT MORE</a>
                         </div>
                     </div>
