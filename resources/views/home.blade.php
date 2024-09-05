@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="banner_content">
-                            <h5>About me</h5>
+                            <h5>@lang('layout.about_me')</h5>
                             <h3>Dora Kery</h3>
                             <p>My motto is:</p>
                             <h4 class="font-italic font-weight-normal">“Styling you to feel radiant, comfortable and confident, all within your budget.”</h4>

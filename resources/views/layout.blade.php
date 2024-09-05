@@ -76,7 +76,7 @@
             <div class="col-lg-5 col-sm-6">
                 <aside class="f_widget ab_widget">
                     <div class="f_title">
-                        <h3>About Me</h3>
+                        <h3>@lang('layout.about_me')</h3>
                     </div>
                     <p>Styling you to feel radiant, comfortable and confident, all within your budget.</p>
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://teomoda.com"  class="teomoda_color" target="_blank">teomoda.com</a>

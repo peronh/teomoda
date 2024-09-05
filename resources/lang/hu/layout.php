@@ -15,4 +15,5 @@ return [
     'contact' => 'Kapcsolat',
     'testimonials' => 'Referenciák',
     'gallery_and_style_tips' => 'Galéria/stílustippek',
+    'about_me'=>'Rólam',
 ];

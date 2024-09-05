@@ -15,4 +15,5 @@ return [
     'contact' => 'Kontakt',
     'testimonials' => 'Referenzen',
     'gallery_and_style_tips' => 'Galerie/Stil-Tipps',
+    'about_me'=>'About Me',
 ];
