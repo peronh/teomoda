@@ -11,8 +11,7 @@ class UserFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      *
-     * @var string
-     */
+     * */
     protected $model = User::class;
 
     /**
@@ -34,7 +33,7 @@ class UserFactory extends Factory
     /**
      * Indicate that the model's email address should be unverified.
      *
-     * @return \Illuminate\Database\Eloquent\Factories\Factory
+     * @return Factory
      */
     public function unverified()
     {

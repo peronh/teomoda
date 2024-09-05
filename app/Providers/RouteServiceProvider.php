@@ -15,8 +15,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * This is used by Laravel authentication to redirect users after login.
      *
-     * @var string
-     */
+     * */
     public const HOME = '/home';
 
     /**
@@ -24,7 +23,6 @@ class RouteServiceProvider extends ServiceProvider
      *
      * When present, controller route declarations will automatically be prefixed with this namespace.
      *
-     * @var string|null
      */
     // protected $namespace = 'App\\Http\\Controllers';
 
